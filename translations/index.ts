@@ -1,0 +1,382 @@
+export const translations = {
+  cs: {
+    nav: {
+      home: "Domů",
+      equipment: "Vybavení",
+      gallery: "Galerie",
+      about: "O Vile",
+      activities: "Aktivity",
+      contact: "Kontakt"
+    },
+    home: {
+      hero: "VÁŠ DOKONALÝ",
+      heroSub: "ÚNIKOVÝ PROSTOR",
+      heroDesc: "Luxusní vila v Jeseníkách pro váš dokonalý odpočinek",
+      marquee: "vila adalbert",
+      aboutTitle: "O nás",
+      aboutText1: "Vila Adalbert je víc než jen místo pro ubytování - je to váš útočiště klidu a pohody uprostřed nádherné přírody Jeseníků.",
+      aboutText2: "Nabízíme luxusní prostory, moderní vybavení a atmosféru, která vám umožní odpočinout si a načerpat novou energii v klidném prostředí.",
+      projectsTitle: "Prostory a vybavení",
+      clientsTitle: "Recenze hostů",
+      readyTitle: "Připraveni",
+      readySub: "rezervovat",
+      readyText: "váš pobyt"
+    },
+    about: {
+      title: "OBJEVTE",
+      subtitle: "VILA ADALBERT",
+      heading: "O vile:",
+      text1: "Vila Adalbert je víc než jen místo pro ubytování - je to váš útočiště klidu a pohody. Nachází se v krásném prostředí obklopena přírodou, ideální pro odpočinek.",
+      text2: "Věříme, že dokonalá dovolená vytváří nezapomenutelné vzpomínky a nabízí opravdový relax. Proto jsme vytvořili vilu, která splní všechny vaše představy o ideálním odpočinku v klidném a luxusním prostředí.",
+      button: "Galerie",
+      bottomText: "Nabízíme vám luxusní a pohodlný pobyt v srdci přírody.",
+      whatWeOffer: "Co nabízíme:",
+      offerText1: "Vila je prostorná, moderně vybavená a ideální pro rodiny, páry nebo skupiny přátel. S velkou zahradou, terasou a grilem je dokonalým místem pro odpočinek a společné chvíle.",
+      offerText2: "Naším cílem je poskytnout vám nezapomenutelný zážitek a vytvořit atmosféru, kde se budete cítit jako doma."
+    },
+    services: {
+      title: "vybavení",
+      subtitle: "Nabízíme kompletně vybavenou a luxusní vilu, která zajistí váš pohodlný a nezapomenutelný pobyt.",
+      heading: "Co vám nabízíme v naší vile:",
+      comfort: "Komfort na prvním místě",
+      comfortText: "Co potřebujete pro dokonalý odpočinek? Moderní vybavení, pohodlné prostory a vše potřebné pro váš pobyt najdete v naší vile.",
+      forEveryone: "Pro každého hosta",
+      forEveryoneText: "Rodiny, páry nebo přátelé? Vila je dostatečně prostorná a flexibilní pro různé skupiny hostů a jejich individuální potřeby a přání.",
+      location: "Lokalita a prostředí",
+      locationText: "Chcete klid v přírodě nebo blízkost turistických cílů? Naše vila nabízí to nejlepší z obou světů - klidné prostředí a dostupnost aktivit v okolí."
+    },
+    contact: {
+      title: "REZERVUJTE SI",
+      subtitle: "VÁŠ POBYT",
+      formTitle: "Vyplňte formulář níže:",
+      nameLabel: "Ahoj! Jmenuji se",
+      namePlaceholder: "Zadejte své jméno*",
+      emailLabel: "a můj email je",
+      emailPlaceholder: "Zadejte email*",
+      checkinLabel: "Chtěl(a) bych rezervovat pobyt od",
+      checkinPlaceholder: "Datum příjezdu*",
+      checkoutLabel: "do",
+      checkoutPlaceholder: "Datum odjezdu*",
+      guestsLabel: "Počet hostů:",
+      guestsPlaceholder: "Zadejte počet*",
+      phoneLabel: "Můj telefon:",
+      phonePlaceholder: "+420 123 456 789",
+      additionalLabel: "Případně doplňující informace:",
+      additionalPlaceholder: "Např. speciální požadavky, dotazy...",
+      privacyText: "Souhlasím s",
+      privacyLink: "ochranou osobních údajů",
+      submitButton: "odeslat poptávku"
+    },
+    activities: {
+      title: "AKTIVITY",
+      subtitle: "Aktivity v okolí:",
+      all: "vše",
+      hiking: "turistika",
+      cycling: "cyklistika",
+      culture: "kultura",
+      featuredTitle: "Objevte krásy Jeseníků:",
+      featuredSubtitle: "Turistika a přírodní zajímavosti."
+    },
+    gallery: {
+      title: "galerie"
+    },
+    footer: {
+      description: "Váš dokonalý útočiště v srdci přírody. Luxusní vila pro nezapomenutelné chvíle.",
+      navigation: "Navigace",
+      contact: "Kontakt",
+      followUs: "Sledujte nás",
+      address: "Vila Adalbert",
+      addressLine1: "Horní Lipová 123",
+      addressLine2: "788 61 Horní Lipová",
+      addressLine3: "Česká Republika",
+      copyright: "© 2024 Vila Adalbert. Všechna práva vyhrazena.",
+      privacy: "Ochrana osobních údajů",
+      terms: "Obchodní podmínky"
+    }
+  },
+  en: {
+    nav: {
+      home: "Home",
+      equipment: "Equipment",
+      gallery: "Gallery",
+      about: "About Villa",
+      activities: "Activities",
+      contact: "Contact"
+    },
+    home: {
+      hero: "YOUR PERFECT",
+      heroSub: "ESCAPE",
+      heroDesc: "Luxury villa in Jeseníky Mountains for your perfect relaxation",
+      marquee: "vila adalbert",
+      aboutTitle: "About us",
+      aboutText1: "Vila Adalbert is more than just a place to stay - it's your haven of peace and comfort in the beautiful nature of Jeseníky Mountains.",
+      aboutText2: "We offer luxurious spaces, modern amenities and an atmosphere that allows you to rest and recharge in a peaceful environment.",
+      projectsTitle: "Spaces and equipment",
+      clientsTitle: "Guest reviews",
+      readyTitle: "Ready to",
+      readySub: "book",
+      readyText: "your stay"
+    },
+    about: {
+      title: "DISCOVER",
+      subtitle: "VILA ADALBERT",
+      heading: "About the villa:",
+      text1: "Vila Adalbert is more than just accommodation - it's your haven of peace and comfort. Located in beautiful natural surroundings, ideal for relaxation.",
+      text2: "We believe that a perfect vacation creates unforgettable memories and offers true relaxation. That's why we created a villa that fulfills all your ideas of an ideal rest in a peaceful and luxurious environment.",
+      button: "Gallery",
+      bottomText: "We offer you a luxurious and comfortable stay in the heart of nature.",
+      whatWeOffer: "What we offer:",
+      offerText1: "The villa is spacious, modernly equipped and ideal for families, couples or groups of friends. With a large garden, terrace and grill, it's the perfect place for relaxation and quality time together.",
+      offerText2: "Our goal is to provide you with an unforgettable experience and create an atmosphere where you will feel at home."
+    },
+    services: {
+      title: "equipment",
+      subtitle: "We offer a fully equipped and luxurious villa that ensures your comfortable and unforgettable stay.",
+      heading: "What we offer in our villa:",
+      comfort: "Comfort first",
+      comfortText: "What do you need for perfect relaxation? Modern equipment, comfortable spaces and everything you need for your stay can be found in our villa.",
+      forEveryone: "For every guest",
+      forEveryoneText: "Families, couples or friends? The villa is spacious and flexible enough for different groups of guests and their individual needs and wishes.",
+      location: "Location and environment",
+      locationText: "Want peace in nature or proximity to tourist attractions? Our villa offers the best of both worlds - peaceful environment and accessibility to activities nearby."
+    },
+    contact: {
+      title: "BOOK",
+      subtitle: "YOUR STAY",
+      formTitle: "Fill out the form below:",
+      nameLabel: "Hi! My name is",
+      namePlaceholder: "Enter your name*",
+      emailLabel: "and my email is",
+      emailPlaceholder: "Enter email*",
+      checkinLabel: "I would like to book a stay from",
+      checkinPlaceholder: "Check-in date*",
+      checkoutLabel: "to",
+      checkoutPlaceholder: "Check-out date*",
+      guestsLabel: "Number of guests:",
+      guestsPlaceholder: "Enter number*",
+      phoneLabel: "My phone:",
+      phonePlaceholder: "+420 123 456 789",
+      additionalLabel: "Additional information:",
+      additionalPlaceholder: "E.g. special requests, questions...",
+      privacyText: "I agree with",
+      privacyLink: "privacy policy",
+      submitButton: "send inquiry"
+    },
+    activities: {
+      title: "ACTIVITIES",
+      subtitle: "Activities nearby:",
+      all: "all",
+      hiking: "hiking",
+      cycling: "cycling",
+      culture: "culture",
+      featuredTitle: "Discover the beauty of Jeseníky:",
+      featuredSubtitle: "Hiking and natural attractions."
+    },
+    gallery: {
+      title: "gallery"
+    },
+    footer: {
+      description: "Your perfect haven in the heart of nature. Luxury villa for unforgettable moments.",
+      navigation: "Navigation",
+      contact: "Contact",
+      followUs: "Follow us",
+      address: "Vila Adalbert",
+      addressLine1: "Horní Lipová 123",
+      addressLine2: "788 61 Horní Lipová",
+      addressLine3: "Czech Republic",
+      copyright: "© 2024 Vila Adalbert. All rights reserved.",
+      privacy: "Privacy Policy",
+      terms: "Terms & Conditions"
+    }
+  },
+  de: {
+    nav: {
+      home: "Startseite",
+      equipment: "Ausstattung",
+      gallery: "Galerie",
+      about: "Über Villa",
+      activities: "Aktivitäten",
+      contact: "Kontakt"
+    },
+    home: {
+      hero: "IHR PERFEKTER",
+      heroSub: "RÜCKZUGSORT",
+      heroDesc: "Luxusvilla im Jeseníky-Gebirge für Ihre perfekte Entspannung",
+      marquee: "vila adalbert",
+      aboutTitle: "Über uns",
+      aboutText1: "Vila Adalbert ist mehr als nur eine Unterkunft - es ist Ihre Oase der Ruhe und des Komforts inmitten der wunderschönen Natur des Jeseníky-Gebirges.",
+      aboutText2: "Wir bieten luxuriöse Räume, moderne Ausstattung und eine Atmosphäre, die es Ihnen ermöglicht, sich in einer ruhigen Umgebung zu erholen und neue Energie zu tanken.",
+      projectsTitle: "Räume und Ausstattung",
+      clientsTitle: "Gästebewertungen",
+      readyTitle: "Bereit",
+      readySub: "zu buchen",
+      readyText: "Ihren Aufenthalt"
+    },
+    about: {
+      title: "ENTDECKEN SIE",
+      subtitle: "VILA ADALBERT",
+      heading: "Über die Villa:",
+      text1: "Vila Adalbert ist mehr als nur eine Unterkunft - es ist Ihre Oase der Ruhe und des Komforts. In wunderschöner natürlicher Umgebung gelegen, ideal zur Entspannung.",
+      text2: "Wir glauben, dass ein perfekter Urlaub unvergessliche Erinnerungen schafft und echte Entspannung bietet. Deshalb haben wir eine Villa geschaffen, die alle Ihre Vorstellungen von einer idealen Erholung in ruhiger und luxuriöser Umgebung erfüllt.",
+      button: "Galerie",
+      bottomText: "Wir bieten Ihnen einen luxuriösen und komfortablen Aufenthalt im Herzen der Natur.",
+      whatWeOffer: "Was wir anbieten:",
+      offerText1: "Die Villa ist geräumig, modern ausgestattet und ideal für Familien, Paare oder Freundesgruppen. Mit großem Garten, Terrasse und Grill ist sie der perfekte Ort für Entspannung und gemeinsame Zeit.",
+      offerText2: "Unser Ziel ist es, Ihnen ein unvergessliches Erlebnis zu bieten und eine Atmosphäre zu schaffen, in der Sie sich wie zu Hause fühlen."
+    },
+    services: {
+      title: "ausstattung",
+      subtitle: "Wir bieten eine voll ausgestattete und luxuriöse Villa, die Ihren komfortablen und unvergesslichen Aufenthalt gewährleistet.",
+      heading: "Was wir in unserer Villa anbieten:",
+      comfort: "Komfort an erster Stelle",
+      comfortText: "Was brauchen Sie für perfekte Entspannung? Moderne Ausstattung, komfortable Räume und alles, was Sie für Ihren Aufenthalt benötigen, finden Sie in unserer Villa.",
+      forEveryone: "Für jeden Gast",
+      forEveryoneText: "Familien, Paare oder Freunde? Die Villa ist geräumig und flexibel genug für verschiedene Gästegruppen und ihre individuellen Bedürfnisse und Wünsche.",
+      location: "Lage und Umgebung",
+      locationText: "Möchten Sie Ruhe in der Natur oder Nähe zu touristischen Zielen? Unsere Villa bietet das Beste aus beiden Welten - ruhige Umgebung und Erreichbarkeit von Aktivitäten in der Nähe."
+    },
+    contact: {
+      title: "BUCHEN SIE",
+      subtitle: "IHREN AUFENTHALT",
+      formTitle: "Füllen Sie das Formular unten aus:",
+      nameLabel: "Hallo! Mein Name ist",
+      namePlaceholder: "Geben Sie Ihren Namen ein*",
+      emailLabel: "und meine E-Mail ist",
+      emailPlaceholder: "E-Mail eingeben*",
+      checkinLabel: "Ich möchte einen Aufenthalt buchen von",
+      checkinPlaceholder: "Anreisedatum*",
+      checkoutLabel: "bis",
+      checkoutPlaceholder: "Abreisedatum*",
+      guestsLabel: "Anzahl der Gäste:",
+      guestsPlaceholder: "Anzahl eingeben*",
+      phoneLabel: "Mein Telefon:",
+      phonePlaceholder: "+420 123 456 789",
+      additionalLabel: "Zusätzliche Informationen:",
+      additionalPlaceholder: "Z.B. besondere Wünsche, Fragen...",
+      privacyText: "Ich stimme zu mit",
+      privacyLink: "Datenschutzrichtlinie",
+      submitButton: "anfrage senden"
+    },
+    activities: {
+      title: "AKTIVITÄTEN",
+      subtitle: "Aktivitäten in der Nähe:",
+      all: "alle",
+      hiking: "wandern",
+      cycling: "radfahren",
+      culture: "kultur",
+      featuredTitle: "Entdecken Sie die Schönheit von Jeseníky:",
+      featuredSubtitle: "Wandern und Naturattraktionen."
+    },
+    gallery: {
+      title: "galerie"
+    },
+    footer: {
+      description: "Ihre perfekte Oase im Herzen der Natur. Luxusvilla für unvergessliche Momente.",
+      navigation: "Navigation",
+      contact: "Kontakt",
+      followUs: "Folgen Sie uns",
+      address: "Vila Adalbert",
+      addressLine1: "Horní Lipová 123",
+      addressLine2: "788 61 Horní Lipová",
+      addressLine3: "Tschechische Republik",
+      copyright: "© 2024 Vila Adalbert. Alle Rechte vorbehalten.",
+      privacy: "Datenschutz",
+      terms: "Geschäftsbedingungen"
+    }
+  },
+  sk: {
+    nav: {
+      home: "Domov",
+      equipment: "Vybavenie",
+      gallery: "Galéria",
+      about: "O Vile",
+      activities: "Aktivity",
+      contact: "Kontakt"
+    },
+    home: {
+      hero: "VÁŠ DOKONALÝ",
+      heroSub: "ÚNIKOVÝ PRIESTOR",
+      heroDesc: "Luxusná vila v Jeseníkoch pre váš dokonalý oddych",
+      marquee: "vila adalbert",
+      aboutTitle: "O nás",
+      aboutText1: "Vila Adalbert je viac ako len miesto na ubytovanie - je to vaše útočisko pokoja a pohody uprostred nádhernej prírody Jeseníkov.",
+      aboutText2: "Ponúkame luxusné priestory, moderne vybavenie a atmosféru, ktorá vám umožní oddýchnuť si a načerpať novú energiu v pokojnom prostredí.",
+      projectsTitle: "Priestory a vybavenie",
+      clientsTitle: "Recenzie hostí",
+      readyTitle: "Pripravení",
+      readySub: "rezervovať",
+      readyText: "váš pobyt"
+    },
+    about: {
+      title: "OBJAVTE",
+      subtitle: "VILA ADALBERT",
+      heading: "O vile:",
+      text1: "Vila Adalbert je viac ako len miesto na ubytovanie - je to vaše útočisko pokoja a pohody. Nachádza sa v krásnom prostredí obklopená prírodou, ideálna na oddych.",
+      text2: "Veríme, že dokonalá dovolenka vytvára nezabudnuteľné spomienky a ponúka skutočný relax. Preto sme vytvorili vilu, ktorá splní všetky vaše predstavy o ideálnom oddychu v pokojnom a luxusnom prostredí.",
+      button: "Galéria",
+      bottomText: "Ponúkame vám luxusný a pohodlný pobyt v srdci prírody.",
+      whatWeOffer: "Čo ponúkame:",
+      offerText1: "Vila je priestranná, moderne vybavená a ideálna pre rodiny, páry alebo skupiny priateľov. S veľkou záhradou, terasou a grilom je dokonalým miestom pre oddych a spoločné chvíle.",
+      offerText2: "Naším cieľom je poskytnúť vám nezabudnuteľný zážitok a vytvoriť atmosféru, kde sa budete cítiť ako doma."
+    },
+    services: {
+      title: "vybavenie",
+      subtitle: "Ponúkame kompletne vybavenú a luxusnú vilu, ktorá zaistí váš pohodlný a nezabudnuteľný pobyt.",
+      heading: "Čo vám ponúkame v našej vile:",
+      comfort: "Komfort na prvom mieste",
+      comfortText: "Čo potrebujete pre dokonalý oddych? Moderné vybavenie, pohodlné priestory a všetko potrebné pre váš pobyt nájdete v našej vile.",
+      forEveryone: "Pre každého hosťa",
+      forEveryoneText: "Rodiny, páry alebo priatelia? Vila je dostatočne priestranná a flexibilná pre rôzne skupiny hostí a ich individuálne potreby a želania.",
+      location: "Lokalita a prostredie",
+      locationText: "Chcete pokoj v prírode alebo blízkosť turistických cieľov? Naša vila ponúka to najlepšie z oboch svetov - pokojné prostredie a dostupnosť aktivít v okolí."
+    },
+    contact: {
+      title: "REZERVUJTE SI",
+      subtitle: "VÁŠ POBYT",
+      formTitle: "Vyplňte formulár nižšie:",
+      nameLabel: "Ahoj! Volám sa",
+      namePlaceholder: "Zadajte svoje meno*",
+      emailLabel: "a môj email je",
+      emailPlaceholder: "Zadajte email*",
+      checkinLabel: "Chcel(a) by som rezervovať pobyt od",
+      checkinPlaceholder: "Dátum príchodu*",
+      checkoutLabel: "do",
+      checkoutPlaceholder: "Dátum odchodu*",
+      guestsLabel: "Počet hostí:",
+      guestsPlaceholder: "Zadajte počet*",
+      phoneLabel: "Môj telefón:",
+      phonePlaceholder: "+420 123 456 789",
+      additionalLabel: "Prípadne doplňujúce informácie:",
+      additionalPlaceholder: "Napr. špeciálne požiadavky, otázky...",
+      privacyText: "Súhlasím s",
+      privacyLink: "ochranou osobných údajov",
+      submitButton: "odoslať dopyt"
+    },
+    activities: {
+      title: "AKTIVITY",
+      subtitle: "Aktivity v okolí:",
+      all: "všetko",
+      hiking: "turistika",
+      cycling: "cyklistika",
+      culture: "kultúra",
+      featuredTitle: "Objavte krásy Jeseníkov:",
+      featuredSubtitle: "Turistika a prírodné zaujímavosti."
+    },
+    gallery: {
+      title: "galéria"
+    },
+    footer: {
+      description: "Vaše dokonalé útočisko v srdci prírody. Luxusná vila pre nezabudnuteľné chvíle.",
+      navigation: "Navigácia",
+      contact: "Kontakt",
+      followUs: "Sledujte nás",
+      address: "Vila Adalbert",
+      addressLine1: "Horní Lipová 123",
+      addressLine2: "788 61 Horní Lipová",
+      addressLine3: "Česká Republika",
+      copyright: "© 2024 Vila Adalbert. Všetky práva vyhradené.",
+      privacy: "Ochrana osobných údajov",
+      terms: "Obchodné podmienky"
+    }
+  }
+};

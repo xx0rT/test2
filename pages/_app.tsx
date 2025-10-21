@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import { Footer, Navbar } from "@/components";
 import { AnimatePresence } from "framer-motion";
+import { LanguageProvider } from "@/context/LanguageContext";
 
 export default function App({
 	Component,
@@ -12,7 +13,7 @@ export default function App({
 	router: any;
 }) {
 	return (
-		<>
+		<LanguageProvider>
 			<Navbar />
 			<AnimatePresence mode="wait">
 				<Component
@@ -21,6 +22,6 @@ export default function App({
 				/>
 			</AnimatePresence>
 			<Footer />
-		</>
+		</LanguageProvider>
 	);
 }
