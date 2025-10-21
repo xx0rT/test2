@@ -13,18 +13,18 @@ export default function About() {
 		<section className="w-full bg-about padding-y rounded-t-[20px] z-20 relative mt-[-15px]">
 			<div className="pl-[50px] sm:px-[20px] xm:px-[20px]">
 				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					Ochi is a strategic partner for fast-grow­ing tech
-					<br className="sm:hidden xm:hidden" /> businesses that need to&nbsp;
+					Vila Adalbert je ideálním místem pro ty,
+					<br className="sm:hidden xm:hidden" /> kteří hledají&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						raise funds,
+						klid a soukromí,
 					</span>
-					&nbsp;sell prod­ucts, <br className="sm:hidden xm:hidden" />
+					&nbsp;rodinnou dovolenou, <br className="sm:hidden xm:hidden" />
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						ex­plain com­plex ideas,
+						krásné prostředí,
 					</span>
-					&nbsp;and&nbsp;
+					&nbsp;nebo&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						hire great peo­ple.
+						výjimečný zážitek.
 					</span>
 				</h2>
 			</div>
@@ -32,21 +32,21 @@ export default function About() {
 				<div className="padding-x pb-[50px] w-full flex sm:flex-col xm:flex-col gap-[30px] justify-between">
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<h3 className="sub-paragraph font-medium text-secondry font-NeueMontreal">
-							What you can expect?
+							Co můžete očekávat?
 						</h3>
 					</div>
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<div className="w-full flex gap-[30px] h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
 							<div className="w-[40%] sm:w-[60%] xm:w-[60%]">
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry tracking-wide">
-									We create tailored presentations to help you persuade your
-									colleagues, clients, or investors. Whether it’s live or
-									digital, delivered for one or a hundred people.
+									Nabízíme vám prostor na míru pro vaši dovolenou, oslavu nebo
+									dlouhodobý pobyt. Vychutnejte si klid na venkově, v okolí
+									krásné přírody a s vším potřebným komfortem.
 								</p>
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide">
-									We believe the mix of strategy and design (with a bit of
-									coffee) is what makes your message clear, convincing, and
-									captivating.
+									Věříme, že kombinace moderního vybavení a autentické atmosféry
+									(s trochou pohostinnosti) je to, co dělá váš pobyt nezapomenutelným,
+									pohodlným a inspirujícím.
 								</p>
 							</div>
 							<div className="w-[60%] flex justify-end flex-col  sm:w-full xm:w-full">
@@ -70,14 +70,14 @@ export default function About() {
 			</div>
 			<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[30px]">
 				<div className="flex flex-col gap-[30px]">
-					<Heading title="Our approach:" />
+					<Heading title="Náš přístup:" />
 					<div
 						className="w-fit flex items-center justify-between bg-secondry cursor-pointer rounded-full group"
 						onMouseEnter={() => setHovered(true)}
 						onMouseLeave={() => setHovered(false)}>
 						<RoundButton
 							href="/ochi-team"
-							title="read more"
+							title="zjistit více"
 							bgcolor="#000"
 							className="bg-white text-black"
 							style={{ color: "#fff" }}
