@@ -9,27 +9,27 @@ export default function About() {
 					<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[30px]">
 						<div>
 							<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
-								We are ochi design:
+								Co nabízíme:
 							</h3>
 						</div>
 						<div className="w-[48%] sm:w-full xm:w-full flex justify-between">
 							<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-y-[40px]">
 								<div className="flex flex-col gap-y-[20px]">
 									<p className="paragraph font-NeueMontreal text-secondry">
-										The team of designers, storytellers, and
-										<br /> passionate collaborators, who work
-										<br /> together to create industry-shifting <br />
-										presentations that win people&apos;s hearts
+										Vila je prostorná, moderně vybavená
+										<br /> a ideální pro rodiny, páry nebo skupiny
+										<br /> přátel. S velkou zahradou, terasou <br />
+										a grilem je dokonalým místem pro
 										<br />
-										and minds.
+										odpočinek a společné chvíle.
 									</p>
 								</div>
 								<div className="flex flex-col gap-y-[20px]">
 									<p className="paragraph font-NeueMontreal text-secondry">
-										And we strive to become one of the most
+										Naším cílem je poskytnout vám
 										<br />
-										recognizable & influential presentation
-										<br /> agencies of the time who does that.
+										nezapomenutelný zážitek a vytvořit
+										<br /> atmosféru, kde se budete cítit jako doma.
 									</p>
 								</div>
 							</div>
