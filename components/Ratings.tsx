@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Rounded } from "@/components";
-import { brand01, brand02, brand03 } from "@/public";
+import { brand01, brand02 } from "@/public";
 
 export default function Ratings() {
 	return (
@@ -47,7 +47,7 @@ export default function Ratings() {
 				</div>
 				<div className="w-full flex items-center justify-center rounded-[10px] bg-secondry relative h-[60vh] sm:h-[50vh] xm:h-[50vh]">
 					<Image
-						src={brand03}
+						src={brand01}
 						alt="brandImg"
 						width={150}
 						height={150}
@@ -60,7 +60,7 @@ export default function Ratings() {
 								backgroundColor="#fff"
 								className="">
 								<p className="z-10 px-[12px] py-[8px] hover:text-black">
-									buisness bootcamp alumini
+									trusted by guests
 								</p>
 							</Rounded>
 						</Link>
