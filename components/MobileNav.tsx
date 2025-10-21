@@ -7,9 +7,19 @@ import { logo, mobileLogo } from "@/public";
 import { footernavbarItems } from "@/constants";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { AnimatePresence, motion } from "framer-motion";
+import { ChevronDown } from "lucide-react";
 
 export default function MobileNav() {
 	const [toggle, setToggle] = useState(false);
+	const [langOpen, setLangOpen] = useState(false);
+	const [currentLang, setCurrentLang] = useState('CS');
+
+	const languages = [
+		{ code: 'CS', label: 'Čeština' },
+		{ code: 'EN', label: 'English' },
+		{ code: 'DE', label: 'Deutsch' },
+		{ code: 'SK', label: 'Slovenčina' }
+	];
 	return (
 		<>
 			<div className="w-full hidden justify-between items-center h-[8vh] padding-x sm:flex xm:flex md:flex">
@@ -21,10 +31,37 @@ export default function MobileNav() {
 						height={70}
 					/>
 				</Link>
-				<HiOutlineMenuAlt4
-					onClick={() => setToggle(true)}
-					className="text-3xl cursor-pointer text-black"
-				/>
+				<div className="flex items-center gap-4">
+					<div className="relative">
+						<button
+							onClick={() => setLangOpen(!langOpen)}
+							className="flex items-center gap-1 text-sm font-medium font-NeueMontreal text-secondry">
+							{currentLang}
+							<ChevronDown size={14} className={`transition-transform ${langOpen ? 'rotate-180' : ''}`} />
+						</button>
+						{langOpen && (
+							<div className="absolute top-full right-0 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg py-2 min-w-[120px] z-50">
+								{languages.map((lang) => (
+									<button
+										key={lang.code}
+										onClick={() => {
+											setCurrentLang(lang.code);
+											setLangOpen(false);
+										}}
+										className={`w-full text-left px-3 py-2 text-sm font-NeueMontreal hover:bg-gray-100 transition-colors ${
+											currentLang === lang.code ? 'bg-gray-50 font-medium' : ''
+										}`}>
+										{lang.label}
+									</button>
+								))}
+							</div>
+						)}
+					</div>
+					<HiOutlineMenuAlt4
+						onClick={() => setToggle(true)}
+						className="text-3xl cursor-pointer text-black"
+					/>
+				</div>
 			</div>
 			<AnimatePresence mode="wait">
 				{toggle && (

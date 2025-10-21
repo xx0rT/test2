@@ -7,22 +7,22 @@ export default function Hero() {
 	const str = [
 		{
 			id: 1,
-			title: "all",
+			title: "vše",
 			href: "/",
 		},
 		{
 			id: 2,
-			title: "presentation template",
+			title: "turistika",
 			href: "/",
 		},
 		{
 			id: 3,
-			title: "public speaking",
+			title: "cyklistika",
 			href: "/",
 		},
 		{
 			id: 4,
-			title: "storytelling",
+			title: "kultura",
 			href: "/",
 		},
 	];
@@ -33,7 +33,7 @@ export default function Hero() {
 					<div className="w-full margin padding-x">
 						<div>
 							<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-								INSIGHTS
+								AKTIVITY
 							</h1>
 						</div>
 					</div>
@@ -41,7 +41,7 @@ export default function Hero() {
 						<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[20px]">
 							<div className="w-[50%] sm:w-full xm:w-full">
 								<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
-									Latest insights:
+									Aktivity v okolí:
 								</h3>
 							</div>
 							<div className="w-[50%] sm:w-full xm:w-full flex flex-wrap items-center gap-[10px]">
@@ -102,8 +102,7 @@ export default function Hero() {
 										</div>
 										<div className="flex flex-col gap-[7px] mt-[10px]">
 											<h3 className="paragraph font-NeueMontreal font-normal text-secondry">
-												Presenting to an International Audience: <br /> Tips and
-												Lessons Learned.
+												Objevte krásy Jeseníků: <br /> Turistika a přírodní zajímavosti.
 											</h3>
 											<p className="paragraph font-NeueMontreal font-normal text-gray-400">
 												{item.subTitle}
