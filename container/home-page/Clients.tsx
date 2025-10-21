@@ -15,7 +15,7 @@ export default function Clients() {
 	return (
 		<section className="w-full padding-y">
 			<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-				Clients’ reviews
+				Recenze hostů
 			</h1>
 			{clientsItem.map((item) => (
 				<div

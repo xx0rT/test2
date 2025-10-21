@@ -4,27 +4,27 @@ import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client0
 export const navbarItems = [
    {
       id: 1,
-      title: "Services",
+      title: "Vybavení",
       href: "/services",
    },
    {
       id: 2,
-      title: "Our work",
+      title: "Galerie",
       href: "/presentation",
    },
    {
       id: 3,
-      title: "About us",
+      title: "O vile",
       href: "/ochi-team",
    },
    {
       id: 4,
-      title: "Insights",
+      title: "Aktivity",
       href: "/insights",
    },
    {
       id: 5,
-      title: "Contact us",
+      title: "Kontakt",
       href: "/contact",
    },
 ];
@@ -57,32 +57,32 @@ export const footerItems = [
 export const footernavbarItems = [
    {
       id: 1,
-      title: "Home",
+      title: "Domů",
       href: "/",
    },
    {
       id: 2,
-      title: "Services",
+      title: "Vybavení",
       href: "services",
    },
    {
       id: 3,
-      title: "Our work",
+      title: "Galerie",
       href: "presentation",
    },
    {
       id: 4,
-      title: "About us",
+      title: "O vile",
       href: "ochi-team",
    },
    {
       id: 5,
-      title: "Insights",
+      title: "Aktivity",
       href: "insights",
    },
    {
       id: 6,
-      title: "Contact us",
+      title: "Kontakt",
       href: "contact",
    },
 ];
@@ -90,244 +90,224 @@ export const footernavbarItems = [
 export const clientsItem = [
    {
       id: 1,
-      website: "Karman Ventures",
-      href: "https://www.ochi.design",
-      title: "Services:",
-      name: "William Barnes",
+      website: "Rodina Nováková",
+      href: "#",
+      title: "Pobyt:",
+      name: "Jana Nováková",
       src: client01,
-      review: "They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5",
+      review: "Strávili jsme ve Vile Adalbert nádherný týden. Prostředí je klidné, čisté a útulné. Majitelé byli velmi vstřícní a ochotní. Vila má vše, co jsme potřebovali pro rodinnou dovolenou. Určitě se vrátíme! 5/5",
       links: [
          {
             id: 1,
-            title: "investor deck",
+            title: "rodinná dovolená",
             href: "/services",
          },
          {
             id: 2,
-            title: "sales deck",
+            title: "týdenní pobyt",
             href: "/services",
          },
       ]
    },
    {
       id: 2,
-      website: "Planetly",
-      href: "https://www.planetly.com",
-      title: "Services:",
-      name: "Nina Walloch",
+      website: "Přátelé z Prahy",
+      href: "#",
+      title: "Pobyt:",
+      name: "Petr Svoboda",
       src: client02,
-      review: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.",
+      review: "Skvělé místo pro víkendový odpočinek s přáteli. Vila je prostorná, moderně vybavená a nachází se v krásné přírodě. Užili jsme si grilování na terase a večerní posezení u krbu. Komunikace s majitelem byla bezproblémová. Moc děkujeme!",
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "víkendový pobyt",
             href: "/services",
          },
          {
             id: 2,
-            title: "big news deck",
+            title: "oslava narozenin",
             href: "/services",
          },
          {
             id: 3,
-            title: "branded template",
+            title: "grilování",
             href: "/services",
          },
          {
             id: 4,
-            title: "investor deck",
+            title: "krb",
             href: "/services",
          },
          {
             id: 5,
-            title: "product presentation",
+            title: "terasa",
             href: "/services",
          },
          {
             id: 6,
-            title: "sales deck",
-            href: "/services",
-         },
-         {
-            id: 7,
-            title: "startup pitch",
+            title: "wifi",
             href: "/services",
          },
       ]
    },
    {
       id: 3,
-      website: "Workiz Easy",
-      href: "https://www.workiz.com",
-      title: "Services:",
-      name: "Tormer levy",
+      website: "Rodina Dvořáková",
+      href: "#",
+      title: "Pobyt:",
+      name: "Markéta Dvořáková",
       src: client03,
-      review: "OCHI brought a certain level of professionalism into our presentations that we were lacking before. When I showed our management and HR teams the presentations OCHI developed, they were amazed — the final product was exactly what we needed to create a better experience for new employees and our clients.",
+      review: "Vila Adalbert přinesla do naší dovolené klid a pohodu, kterou jsme hledali. Děti si užily zahradu a my rodiče krásné výhledy do okolí. Vybavení vily je na vysoké úrovni. Perfektní místo pro odpočinek od ruchu města.",
       links: [
          {
             id: 1,
-            title: "compony presentation",
+            title: "rodinný pobyt",
             href: "/services",
          },
          {
             id: 2,
-            title: "onboarding presentation",
+            title: "zahrada",
             href: "/services",
          },
          {
             id: 3,
-            title: "policy deck and playbook",
+            title: "dětské hřiště",
             href: "/services",
          },
          {
             id: 4,
-            title: "redesign",
-            href: "/services",
-         },
-         {
-            id: 5,
-            title: "sales deck",
+            title: "výlety",
             href: "/services",
          },
       ]
    },
    {
       id: 4,
-      website: "Premium Blend",
-      href: "https://www.premium-blend.com",
-      title: "Services:",
-      name: "Elien Kim",
+      website: "Manželé Horákovi",
+      href: "#",
+      title: "Pobyt:",
+      name: "Martin Horák",
       src: client04,
-      review: "They are truly changing the landscape of presentations!! Fast, effective, and nice humans that listened to every detail of our needs. Creating a deck with their template brings so much joy and ease. We proudly showcase their design in our calls and presentations.",
+      review: "Naprosto úžasná vila! Interiér je stylový a pohodlný. Vše fungovalo perfektně. Lokalita je ideální - klidná, ale přitom blízko civilizace. Už se těšíme na další návštěvu. Vřele doporučujeme!",
       links: [
          {
             id: 1,
-            title: "branded template",
+            title: "dlouhodobý pobyt",
             href: "/services",
          },
          {
             id: 2,
-            title: "illustration",
+            title: "výlet do přírody",
             href: "/services",
          },
       ]
    },
    {
       id: 5,
-      website: "Hypercare Systems",
-      href: "https://www.hypercare-systems.com",
-      title: "Services:",
-      name: "Brendon Goss",
+      website: "Skupina kamarádů",
+      href: "#",
+      title: "Pobyt:",
+      name: "Lukáš Černý",
       src: client05,
-      review: "The service received from OCHI was absolutely first-class. Their close attention to detail, and deep thought in terms of narrative, flow, and aesthetics, completely exceeded my expectations, which were very high from the outset. Especially loved and appreciated the creation of visuals, animation, and advice around the look and feel that we are after. We will definitely continue working with Ihor and his team. I cannot recommend them highly enough.",
+      review: "Služba, kterou jsme dostali ve Vile Adalbert, byla naprosto prvotřídní. Majitelé byli pozorní ke všem detailům. Vila je vynikající pro skupinové akce. Rozhodně se vrátíme a budeme ji doporučovat dál.",
       links: [
          {
             id: 1,
-            title: "investor deck",
+            title: "skupinový pobyt",
             href: "/services",
          },
          {
             id: 2,
-            title: "startup pitch",
+            title: "firemní akce",
             href: "/services",
          },
       ]
    },
    {
       id: 6,
-      website: "Officevibe",
-      href: "https://www.officevibe.com",
-      title: "Services:",
-      name: "Raff Labri",
+      website: "Rodina Poláčková",
+      href: "#",
+      title: "Pobyt:",
+      name: "Eva Poláčková",
       src: client06,
-      review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
+      review: "Vila Adalbert má naprosto vynikající polohu. Je to nejlepší místo, které jsme navštívili. Vila překonačila naše očekávání a byli jsme opravdu překvapeni kvalitou. Určitě se vrátíme!",
       links: [
          {
             id: 1,
-            title: "branded template deck",
+            title: "prázdniny",
             href: "/services",
          },
       ]
    },
    {
       id: 7,
-      website: "Orderlion",
-      href: "https://www.orderlion.com",
-      title: "Services:",
-      name: "Stefan Strohmer",
+      website: "Pár ze zahraničí",
+      href: "#",
+      title: "Pobyt:",
+      name: "Thomas Müller",
       src: client07,
-      review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
+      review: "Výsledek byl jednoduche úžasný! Vila Adalbert splnila přesně to, co jsme hledali. Krásné prostředí, klidné místo a perfektní servis. Hledali jsme dlouhodobý vztah s touto vilou a jsme rádi, že jsme ji našli!",
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "romantický pobyt",
             href: "/services",
          },
          {
             id: 2,
-            title: "investor deck",
+            title: "medový týden",
             href: "/services",
          },
          {
             id: 3,
-            title: "product presentation",
-            href: "/services",
-         },
-         {
-            id: 4,
-            title: "review",
-            href: "/services",
-         },
-         {
-            id: 2,
-            title: "sales deck",
+            title: "klidné prostředí",
             href: "/services",
          },
       ]
    },
    {
       id: 8,
-      website: "Black Book",
-      href: "https://www.blackbookapp.co",
-      title: "Services:",
-      name: "Jacki Smith",
+      website: "Rodina Kratochvílová",
+      href: "#",
+      title: "Pobyt:",
+      name: "Tomáš Kratochvíl",
       src: client08,
-      review: "They nailed what our product was all about. We found their ability to workshop all the angles and take on feedback was great and it shows in the final product. Everything moved with a milestone dynamic brief via Notion which was handy to track progress. We’re very happy with the process and the final product. All was handled well and professionally.",
+      review: "Trefili přesně to, co jsme potřebovali. Našli jsme schopnost vily splnit všechny naše požadavky skvělé. Vše proběhlo hladce a profesionálně. Jsme velmi spokojeni s celým procesem i výsledkem.",
       links: [
          {
             id: 1,
-            title: "review",
+            title: "rodinná oslava",
             href: "/services",
          },
          {
             id: 2,
-            title: "startup pitch",
+            title: "narozeniny",
             href: "/services",
          },
       ]
    },
    {
       id: 9,
-      website: "Trawa Energy",
-      href: "https://www.blackbookapp.co",
-      title: "Services:",
-      name: "David Buddy",
+      website: "Mladý pár",
+      href: "#",
+      title: "Pobyt:",
+      name: "David Novák",
       src: client09,
-      review: "We were surprised by the accuracy with which Ochi Design nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company.",
+      review: "Byli jsme překvapeni přesností, s jakou Vila Adalbert odpovídá našim osobním představám. Prostory jsou moderní, čisté a stylové. Ideální místo pro náš první společný výlet.",
       links: [
          {
             id: 1,
-            title: "branding",
+            title: "první návštěva",
             href: "/services",
          },
          {
             id: 2,
-            title: "investor deck",
+            title: "moderní design",
             href: "/services",
          },
          {
             id: 3,
-            title: "startup pitch",
+            title: "pohodlí",
             href: "/services",
          },
       ]
@@ -338,82 +318,82 @@ export const clientsItem = [
 export const projectItem = [
    {
       id: 1,
-      title: "fyde",
+      title: "Hlavní ložnice",
       href: "/case/",
       src: project1,
       links: [
          {
             id: 1,
-            title: "audit",
+            title: "king-size postel",
             href: "/services",
          },
          {
             id: 2,
-            title: "copywriting",
+            title: "vlastní koupelna",
             href: "/services",
          },
          {
             id: 3,
-            title: "sales deck",
+            title: "výhled do zahrady",
             href: "/services",
          },
          {
             id: 4,
-            title: "slides design",
+            title: "šatna",
             href: "/services",
          },
       ]
    },
    {
       id: 2,
-      title: "vise",
+      title: "Obývací pokoj",
       href: "/case/",
       src: project2,
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "krb",
             href: "/services",
          },
          {
             id: 2,
-            title: "compony presentation",
+            title: "velká terasa",
             href: "/services",
          },
       ]
    },
    {
       id: 3,
-      title: "trawa",
+      title: "Zahrada",
       href: "/case/",
       src: project3,
       links: [
          {
             id: 1,
-            title: "brand identity",
+            title: "gril",
             href: "/services",
          },
          {
             id: 2,
-            title: "design research",
+            title: "venkovní posezení",
             href: "/services",
          },
          {
             id: 3,
-            title: "investor deck",
+            title: "dětské hřiště",
             href: "/services",
          },
       ]
    },
    {
       id: 4,
-      title: "premiumblend",
+      title: "Kuchyně",
       href: "/case/",
       src: project4,
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "plně vybavená",
             href: "/services",
          },
       ]

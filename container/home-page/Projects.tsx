@@ -5,7 +5,7 @@ export default function Projects() {
 	return (
 		<section className="w-full rounded-t-[20px]">
 			<Heading
-				title="Featured projects"
+				title="Prostory a vybavení"
 				className="padding-x padding-y pb-[50px] border-b border-[#21212155]"
 			/>
 			<div className="w-full flex justify-between gap-y-[50px] padding-x padding-y flex-wrap">
