@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
 import { useSeason } from "@/context/SeasonContext";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function HeroVila() {
   const { season } = useSeason();
+  const { t } = useLanguage();
 
   return (
     <section className="w-full h-screen relative flex items-center justify-center overflow-hidden">
@@ -19,10 +21,10 @@ export default function HeroVila() {
         className="relative z-20 text-center padding-x max-w-4xl"
       >
         <h1 className="text-white font-FoundersGrotesk font-bold text-[120px] leading-[110px] lg:text-[90px] lg:leading-[85px] md:text-[70px] md:leading-[65px] sm:text-[50px] sm:leading-[48px] xm:text-[40px] xm:leading-[38px] mb-6">
-          Vila Adalbert
+          {t('hero.title')}
         </h1>
         <p className="text-white/90 font-NeueMontreal text-2xl lg:text-xl md:text-lg sm:text-base xm:text-sm mb-8">
-          Your Mountain Retreat for Every Season
+          {t('hero.subtitle')}
         </p>
         <motion.a
           href="#about"
@@ -30,7 +32,7 @@ export default function HeroVila() {
           whileTap={{ scale: 0.95 }}
           className="inline-block px-8 py-4 bg-white text-black font-NeueMontreal font-medium rounded-full hover:bg-white/90 transition-colors"
         >
-          Explore the House
+          {t('hero.explore')}
         </motion.a>
       </motion.div>
 

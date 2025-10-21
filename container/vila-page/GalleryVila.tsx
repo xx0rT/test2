@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useSeason } from "@/context/SeasonContext";
+import { useLanguage } from "@/context/LanguageContext";
 
 const winterGallery = [
   { id: 1, label: "Winter view 1" },
@@ -27,6 +28,7 @@ export default function GalleryVila() {
   });
 
   const { season } = useSeason();
+  const { t } = useLanguage();
   const gallery = season === 'winter' ? winterGallery : summerGallery;
 
   return (
@@ -39,7 +41,7 @@ export default function GalleryVila() {
         className="max-w-7xl mx-auto"
       >
         <h2 className="font-FoundersGrotesk font-semibold text-[80px] leading-[75px] lg:text-[60px] lg:leading-[58px] md:text-[48px] md:leading-[45px] sm:text-[36px] sm:leading-[34px] xm:text-[28px] xm:leading-[26px] mb-12 text-primary">
-          Photo Gallery
+          {t('gallery.title')}
         </h2>
 
         <div className="grid grid-cols-3 gap-6 lg:grid-cols-2 md:grid-cols-1">
