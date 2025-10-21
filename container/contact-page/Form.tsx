@@ -9,13 +9,13 @@ export default function Form() {
 					<div className="flex gap-[10px] w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								Hi! My name is
+								Ahoj! Jmenuji se
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
 								type="text"
-								placeholder="Enter your name*"
+								placeholder="Zadejte své jméno*"
 								className="paragraph w-full font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out sm:w-full xm:w-full"
 							/>
 						</div>
@@ -23,13 +23,13 @@ export default function Form() {
 					<div className="flex gap-[10px] w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								and I work with
+								a můj email je
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
-								type="text"
-								placeholder="Compony name type here*"
+								type="email"
+								placeholder="Zadejte email*"
 								className="paragraph w-full font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out sm:w-full xm:w-full"
 							/>
 						</div>
@@ -39,13 +39,13 @@ export default function Form() {
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								I’m looking for a partner to help me with
+								Chtěl(a) bych rezervovat pobyt od
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
-								type="text"
-								placeholder="Your goal type here*"
+								type="date"
+								placeholder="Datum příjezdu*"
 								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
 							/>
 						</div>
@@ -55,13 +55,13 @@ export default function Form() {
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								With an idea of having that completed
+								do
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
-								type="text"
-								placeholder="Date*"
+								type="date"
+								placeholder="Datum odjezdu*"
 								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
 							/>
 						</div>
@@ -71,13 +71,13 @@ export default function Form() {
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								I am hoping to stay around a budget range of
+								Počet hostů:
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
-								type="text"
-								placeholder="Select*"
+								type="number"
+								placeholder="Zadejte počet*"
 								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
 							/>
 						</div>
@@ -87,20 +87,15 @@ export default function Form() {
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								You can reach me at
+								Můj telefon:
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
-								type="text"
-								placeholder="name@example.com"
+								type="tel"
+								placeholder="+420 123 456 789"
 								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
 							/>
-						</div>
-						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
-							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								to start the conversation.
-							</h2>
 						</div>
 					</div>
 				</div>
@@ -108,14 +103,14 @@ export default function Form() {
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								Optionally, i’m sharing more:
+								Případně doplňující informace:
 							</h2>
 						</div>
 						<div className="w-full">
-							<input
-								type="text"
-								placeholder="Product details type here..."
-								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
+							<textarea
+								placeholder="Např. speciální požadavky, dotazy..."
+								rows={3}
+								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full resize-none"
 							/>
 						</div>
 					</div>
@@ -130,20 +125,20 @@ export default function Form() {
 								className="w-[30px]"
 							/>
 							<p className="paragraph text-secondry font-NeueMontreal font-normal">
-								I agree with the
+								Souhlasím s
 							</p>
 						</div>
 						<Link
 							className="paragraph font-medium font-NeueMontreal text-secondry capitalize flex flex-col hover"
 							href={"/privacy"}>
-							Privacy Policy
+							ochranou osobních údajů
 						</Link>
 					</div>
 					<div className="w-fit flex items-center justify-between bg-secondry cursor-pointer rounded-full group">
 						<RoundButton
 							bgcolor="#212121"
 							href="/"
-							title="send inquiry"
+							title="odeslat poptávku"
 							className="bg-white text-black"
 							style={{ color: "#fff" }}
 						/>

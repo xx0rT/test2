@@ -5,8 +5,8 @@ import { LinkHover, TextMask } from "@/animation";
 import { footerItems, footernavbarItems } from "@/constants";
 
 export default function Footer() {
-	const phrase = ["Eye-", "opening"];
-	const phrase1 = ["PRESENTATIONS"];
+	const phrase = ["Váš", "útočiště"];
+	const phrase1 = ["V PŘÍRODĚ"];
 	return (
 		<footer className="w-full min-h-screen padding-x z-30 relative pt-[40px] bg-background flex flex-col justify-between rounded-t-[20px] mt-[-20px]">
 			<div className="w-full flex justify-between sm:flex-col xm:flex-col">
@@ -41,22 +41,22 @@ export default function Footer() {
 								<div className="flex flex-col gap-y-[10px]">
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title={`202-1965 W 4th Awe`}
+										title={`Vila Adalbert`}
 										href="/"
 									/>
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title={`Vancouver, Canada`}
+										title={`Horní Lipová 123`}
 										href="/"
 									/>
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title="30 Chukarina"
+										title="788 61 Horní Lipová"
 										href="/"
 									/>
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title="St Lviv, Ukraine"
+										title="Česká Republika"
 										href="/"
 									/>
 								</div>
@@ -80,8 +80,18 @@ export default function Footer() {
 								E:
 							</h1>
 							<LinkHover
-								title="hello@ochi.design"
-								href="/"
+								title="info@vilaadalbert.cz"
+								href="mailto:info@vilaadalbert.cz"
+								className="before:h-[1px] after:h-[1px] paragraph font-medium before:bottom-[-3px] after:bottom-[-3px]"
+							/>
+						</div>
+						<div className="pt-[20px] flex gap-x-[20px]">
+							<h1 className="paragraph font-medium font-NeueMontreal text-secondry">
+								T:
+							</h1>
+							<LinkHover
+								title="+420 123 456 789"
+								href="tel:+420123456789"
 								className="before:h-[1px] after:h-[1px] paragraph font-medium before:bottom-[-3px] after:bottom-[-3px]"
 							/>
 						</div>
@@ -102,17 +112,17 @@ export default function Footer() {
 				<div className="w-1/2 h-full flex gap-[10px] justify-between items-end sm:w-full xm:w-full sm:flex-col xm:flex-col sm:items-start xm:items-start">
 					<div className="flex sm:flex-col xm:flex-col gap-[10px]">
 						<h1 className="paragraph font-medium font-NeueMontreal text-secondry opacity-40">
-							© ochi design 2024.
+							© Vila Adalbert 2024.
 						</h1>
 						<LinkHover
-							title="Legal Terms"
+							title="Obchodní podmínky"
 							href="/"
 							className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
 						/>
 					</div>
 					<div>
 						<LinkHover
-							title="Website by Zain"
+							title="Vytvořil Zain"
 							href="/"
 							className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
 						/>
