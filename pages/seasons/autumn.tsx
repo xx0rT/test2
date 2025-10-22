@@ -2,13 +2,14 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import FallingLeaves from "@/components/animations/FallingLeaves";
+import Curve from "@/components/Curve/Curve";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function Autumn() {
   const { t } = useLanguage();
 
   return (
-    <>
+    <Curve backgroundColor="#ffedd5">
       <FallingLeaves />
       <motion.div
         initial={{ opacity: 0 }}
@@ -104,6 +105,6 @@ export default function Autumn() {
           </motion.div>
         </div>
       </motion.div>
-    </>
+    </Curve>
   );
 }

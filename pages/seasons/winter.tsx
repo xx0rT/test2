@@ -2,13 +2,14 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import FallingSnow from "@/components/animations/FallingSnow";
+import Curve from "@/components/Curve/Curve";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function Winter() {
   const { t } = useLanguage();
 
   return (
-    <>
+    <Curve backgroundColor="#dbeafe">
       <FallingSnow />
       <motion.div
         initial={{ opacity: 0 }}
@@ -104,6 +105,6 @@ export default function Winter() {
           </motion.div>
         </div>
       </motion.div>
-    </>
+    </Curve>
   );
 }

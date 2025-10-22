@@ -1,17 +1,19 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import Curve from "@/components/Curve/Curve";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function Summer() {
   const { t } = useLanguage();
 
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      className="w-full min-h-screen bg-gradient-to-b from-yellow-50 to-white">
+    <Curve backgroundColor="#fefce8">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        className="w-full min-h-screen bg-gradient-to-b from-yellow-50 to-white">
       <div className="w-full padding-x padding-y pt-32">
         <motion.div
           initial={{ y: 50, opacity: 0 }}
@@ -100,6 +102,7 @@ export default function Summer() {
           </div>
         </motion.div>
       </div>
-    </motion.div>
+      </motion.div>
+    </Curve>
   );
 }

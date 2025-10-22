@@ -12,6 +12,10 @@ const routes = {
 	"/insights": "Aktivity",
 	"/contact": "Kontakujte Nás",
 	"/case": "Workiz Easy",
+	"/seasons/spring": "Jaro",
+	"/seasons/summer": "Léto",
+	"/seasons/autumn": "Podzim",
+	"/seasons/winter": "Zima",
 };
 
 const anim = (variants) => {
