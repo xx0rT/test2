@@ -14,6 +14,7 @@ export default function AdminBlogs() {
   const [editingBlog, setEditingBlog] = useState<BlogPost | null>(null);
 
   const [formData, setFormData] = useState({
+    slug: '',
     title_cs: '',
     title_en: '',
     excerpt_cs: '',
@@ -102,6 +103,7 @@ export default function AdminBlogs() {
 
   function resetForm() {
     setFormData({
+      slug: '',
       title_cs: '',
       title_en: '',
       excerpt_cs: '',
@@ -118,6 +120,7 @@ export default function AdminBlogs() {
 
   function editBlog(blog: BlogPost) {
     setFormData({
+      slug: blog.slug,
       title_cs: blog.title_cs,
       title_en: blog.title_en,
       excerpt_cs: blog.excerpt_cs,
@@ -164,6 +167,19 @@ export default function AdminBlogs() {
               {editingBlog ? 'Upravit blog' : 'Nový blog'}
             </h3>
             <form onSubmit={handleSubmit} className="flex flex-col gap-[20px]">
+              <div>
+                <label className="small-text font-NeueMontreal text-gray-600 mb-[5px] block">
+                  Slug (URL identifikátor)
+                </label>
+                <input
+                  type="text"
+                  value={formData.slug}
+                  onChange={(e) => setFormData({...formData, slug: e.target.value})}
+                  required
+                  placeholder="napr: nejlepsi-vylety-v-jesenikach"
+                  className="w-full border border-[#21212155] rounded-[10px] px-[15px] py-[10px] paragraph font-NeueMontreal"
+                />
+              </div>
               <div className="grid grid-cols-2 gap-[20px]">
                 <div>
                   <label className="small-text font-NeueMontreal text-gray-600 mb-[5px] block">

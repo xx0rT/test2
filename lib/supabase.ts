@@ -7,6 +7,7 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 export interface BlogPost {
   id: string;
+  slug: string;
   title_cs: string;
   title_en: string;
   content_cs: string;
