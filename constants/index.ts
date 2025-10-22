@@ -318,7 +318,7 @@ export const clientsItem = [
 export const projectItem = [
    {
       id: 1,
-      title: "Hlavní ložnice",
+      title: "Jaro",
       href: "/case/",
       src: project1,
       links: [
@@ -346,7 +346,7 @@ export const projectItem = [
    },
    {
       id: 2,
-      title: "Obývací pokoj",
+      title: "Léto",
       href: "/case/",
       src: project2,
       links: [
@@ -364,7 +364,7 @@ export const projectItem = [
    },
    {
       id: 3,
-      title: "Zahrada",
+      title: "Podzim",
       href: "/case/",
       src: project3,
       links: [
@@ -387,7 +387,7 @@ export const projectItem = [
    },
    {
       id: 4,
-      title: "Kuchyně",
+      title: "Zima",
       href: "/case/",
       src: project4,
       links: [
