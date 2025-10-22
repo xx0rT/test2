@@ -416,43 +416,43 @@ export const projectItem = [
 export const serviceProcessItems = [
    {
       id: 1,
-      phase: "01. Phase",
-      name: "Discovery",
+      phase: "01. Krok",
+      name: "Dotaz",
       src: phase1,
-      review: "We define your goals, get to know your audience, and understand the context. Through a process of exploration, investigation, and research, we seek the insights that inform our future decisions.",
-      button: "read"
+      review: "Kontaktujte nás s vašimi požadavky na termín a počet hostů. Zodpovíme všechny vaše dotazy ohledně vily, vybavení a okolních aktivit. Společně najdeme ideální řešení pro váš pobyt.",
+      button: "číst"
    },
    {
       id: 2,
-      phase: "02. Phase",
-      name: "Storytelling",
+      phase: "02. Krok",
+      name: "Rezervace",
       src: phase2,
-      review: "Based on the answers, previous drafts, and additional research, we will develop a foundation of the deck — the structure of the presentation. We build a tone of voice, flow, and narrative to engage our audience. Here we will win people's minds.",
-      button: "read"
+      review: "Po potvrzení dostupnosti vám pošleme rezervační formulář s detaily o ceně a podmínkách. Zajistíme si váš termín a domluvíme všechny důležité detaily ohledně vašeho příjezdu a specifických přání.",
+      button: "číst"
    },
    {
       id: 3,
-      phase: "03. Phase",
-      name: "Design",
+      phase: "03. Krok",
+      name: "Příprava",
       src: phase3,
-      review: "We use design to guide our audience's attention and keep them engaged. It's not only what you want them to do, but also how you make them feel. We make sure the presentation wins people's hearts and leaves a perfect long-lasting impression.",
-      button: "read"
+      review: "Před vaším příjezdem připravíme vilu, zkontrolujeme veškeré vybavení a zajistíme, že vše bude připraveno přesně podle vašich potřeb. Budeme s vámi v kontaktu, abychom vás informovali o všech důležitých informacích.",
+      button: "číst"
    },
    {
       id: 4,
-      phase: "04. Phase",
-      name: "Feedback",
+      phase: "04. Krok",
+      name: "Příjezd",
       src: phase4,
-      review: "We want to stay on the same page. Hence, each phase wraps up presenting the work to you to collect and implement your feedback if such appears.",
-      button: "read"
+      review: "Přivítáme vás ve vile, provedeme vás všemi prostorami a vysvětlíme fungování vybavení. Rádi vám poradíme s restauracemi, výlety a aktivitami v okolí. Jsme k dispozici kdykoliv během vašeho pobytu.",
+      button: "číst"
    },
    {
       id: 5,
-      phase: "05. Phase",
-      name: "Delivery",
+      phase: "05. Krok",
+      name: "Pobyt a odjezd",
       src: phase5,
-      review: "We will carefully collect and prepare all the project files to ensure smooth future use.",
-      button: "read"
+      review: "Užijte si váš pobyt v plné míře! Při odjezdu provedeme společnou prohlídku vily. Rádi si poslechněme vaši zpětnou vazbu, abychom mohli stále zlepšovat naše služby.",
+      button: "číst"
    },
 ];
 
@@ -839,17 +839,17 @@ export const expectationsItems = [
 export const achiveItems = [
    {
       id: 1,
-      title1: ["100+"],
-      title2: ["$280+"],
-      subTitle1: "Clients from 17 Countries",
-      subTitle2: "Millions raised for our clients",
+      title1: ["150+"],
+      title2: ["95%"],
+      subTitle1: "Spokojených hostů",
+      subTitle2: "Návratnost hostů",
    },
    {
       id: 2,
-      title1: ["90%"],
-      title2: ["98%"],
-      subTitle1: "Of our clients come back",
-      subTitle2: "Net Promoting Score",
+      title1: ["5.0"],
+      title2: ["24/7"],
+      subTitle1: "Průměrné hodnocení",
+      subTitle2: "Dostupnost podpory",
    },
 ];
 
@@ -1103,16 +1103,16 @@ export const latestItemss = [
       links: [
          {
             id: 1,
-            title: "public speaking"
+            title: "turistika"
          },
          {
             id: 1,
-            title: "storytelling"
+            title: "příroda"
          },
       ],
-      title: "Presenting to an International Audience: <br/> Tips and Lessons Learned.",
-      subTitle: "By Ihor Hulyahrodskyy",
-      date: "26 May 2023"
+      title: "Objevte krásy Jeseníků: <br/> Turistika a přírodní zajímavosti.",
+      subTitle: "Tým Vila Adalbert",
+      date: "15. června 2024"
    },
    {
       id: 2,
@@ -1121,12 +1121,12 @@ export const latestItemss = [
       links: [
          {
             id: 1,
-            title: "presentation template"
+            title: "relaxace"
          },
       ],
-      title: "Developing compony-wide presentation template for premium blend.",
-      subTitle: "By Ihor Hulyahrodskyy",
-      date: "07 Dec 2022"
+      title: "Zimní radovánky v Jeseníkách: Lyžování a wellness pobyt.",
+      subTitle: "Tým Vila Adalbert",
+      date: "10. prosince 2024"
    },
 ];
 
@@ -1244,101 +1244,101 @@ export const aboutPartberItems = [
 export const FaqItems = [
    {
       id: 1,
-      question: "How many iterations the project includes?",
-      title: "Description",
-      description: "We’re committed to delighting every one of our clients and will do everything to deliver on the project fully. We iterate as much as needed to ensure the best result.",
+      question: "Jaké jsou možnosti rezervace?",
+      title: "Odpověď",
+      description: "Nabízíme flexibilní možnosti rezervace, abychom vyhověli vašim potřebám. Můžete si vybrat z víkendových pobytů, týdenních dovolených nebo delších období dle vašich přání.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "Based on our experience and ways of working, no more than three revisions are needed to meet clients’ expectations and business needs."
+            description: "Pro rezervaci kontaktujte nás alespoň 2 týdny předem, abychom mohli zajistit dostupnost a připravit vilu přesně podle vašich požadavků."
          },
          {
             id: 2,
             title: 2,
-            description: "If your project is something we are not capable of doing, we will say it right there and won’t commit. Instead, we will refer you to specialists in any field you need and we might know."
+            description: "V případě specifických požadavků nebo speciálních příležitostí nás neváhejte kontaktovat a rádi najdeme individuální řešení."
          },
       ],
-      button: "read"
+      button: "číst"
    },
    {
       id: 2,
-      question: "Do you animate presentations?",
-      title: "Description",
-      description: "Movement is what attracts the eye. But not every presentation requires animation, although we do agree that animated presentations give a wow effect. We surely add transitions and animation to your presentation where we think it increases engagement, surprise, or simply delivers the message flawlessly.",
+      question: "Je možné přivést domácí zvířata?",
+      title: "Odpověď",
+      description: "Ano, ve vile Adalbert rádi vítáme i vaše čtyřnohé přátele. Rozumíme, že domácí mazlíčci jsou součástí rodiny a zaslouží si společnou dovolenou.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "Prosíme vás pouze o ohleduplnost k vybavení vily a dodržování základních pravidel čistoty. Za případné škody způsobené domácími zvířaty bude účtován poplatek."
          },
       ],
-      button: "read"
+      button: "číst"
    },
    {
       id: 3,
-      question: "Do you join forces with other agencies?",
-      title: "Description",
-      description: "Yes, we do partner with other creative agencies where we lack expertise or experience. We carefully select our partners and frequently collaborate on brand identity, web design, animation design, and other fine initiatives that benefit both us and our clients. All with the purpose to expand our creative POV and supplementing you with top-notch work.",
+      question: "Spolupracujete s místními poskytovateli služeb?",
+      title: "Odpověď",
+      description: "Ano, máme vybudované partnerství s kvalitními místními poskytovateli služeb. Rádi vám doporučíme ověřené restaurace, průvodce pro turistiku, lyžařské instruktory a další služby v okolí.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "Můžeme vám pomoci s organizací wellness procedur, catering služeb nebo speciálních zážitků během vašeho pobytu."
          },
       ],
-      button: "read"
+      button: "číst"
    },
    {
       id: 4,
-      question: "I want to become a part of the team! Do you hire?",
-      title: "Description",
-      description: "Yes! We actively search for talent to join us in completing high-stake presentation design projects at OCHI. As a presentation agency, we always aim to create the best products and services possible. Hence, we are looking for someone who will enjoy helping us fuse design and thinking into something impactful and beautiful.",
+      question: "Kolik hostů se do vily vejde?",
+      title: "Odpověď",
+      description: "Vila Adalbert je navržena pro pohodlné ubytování až 10 hostů. Máme prostorné ložnice, společné prostory a dostatek soukromí pro každého.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "If you feel like you’re on top of your creative game, whether it’s storytelling, graphic design, or animation. Send us the CV and portfolio at Ihor@ochi.design with “CREATE AND THRILL” in the subject. We will get back to you and maybe schedule a call. If there’s a potential fit here, you will meet the team. If that goes well – you’ll become a part of it."
+            description: "Pro větší skupiny nad 10 osob nás prosím kontaktujte předem, abychom mohli prodiskutovat možnosti a zajistit maximální komfort pro všechny hosty."
          },
          {
             id: 2,
             title: 2,
-            description: "If you think you can improve our processes, marketing, PR, and communications, or you excel at managing people, we would love to hear from you. Send your message to hello@ochi.design with “-” and we will get back to you."
+            description: "Vila je ideální pro rodinné oslavy, víkendové pobyty s přáteli nebo firemní teambuildingy."
          },
       ],
-      button: "read"
+      button: "číst"
    },
    {
       id: 5,
-      question: "Can I hire you for publish speaking, or student workshop?",
-      title: "Description",
-      description: "The short answer is yes.",
+      question: "Pořádáte ve vile i akce a oslavy?",
+      title: "Odpověď",
+      description: "Ano, villa je vhodná pro soukromé oslavy a akce.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "Through our work, we empower brands to make a difference. But while, the presentations that raise millions help in the long run by providing resources for organizations to evolve, create new workplaces, and make things better. We also offer our corporate clients personal training. We love visiting traditional university students to share insights and expertise through masterclasses and workshops. This is how we make things better by teaching others how to make better things. And this changes the world here and now."
+            description: "Nabízíme prostory pro narozeninové oslavy, svatební večírky, firemní akce nebo rodinná setkání. Vila poskytuje krásné prostředí, moderní zázemí a soukromí pro vaši akci."
          },
          {
             id: 2,
             title: 2,
-            description: "If you have an event coming or you are a university academic, please reach out to us with the topic, and we will see how we can help."
+            description: "V případě plánování akce nás prosím kontaktujte s podrobnostmi a rádi vám pomůžeme s organizací a případnými dodatečnými službami."
          },
       ],
-      button: "read"
+      button: "číst"
    },
    {
       id: 6,
-      question: "Would you like to jump on a podcast or YouTube video?",
-      title: "Description",
-      description: "Yes, why not. It’s a great chance to give back to the creative community by sharing and learning. Especially if the audience is relevant to the communication design subject. Or maybe it helps our clients in some way. We can’t know until we see some details, so drop us a line with a brief explanation at kseniia@ochi.design with the “Podcast/YT Proposal”.",
+      question: "Jaké jsou platební podmínky?",
+      title: "Odpověď",
+      description: "Pro potvrzení rezervace požadujeme zálohu ve výši 30% z celkové ceny. Zbývající částka je splatná nejpozději 14 dní před příjezdem.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "Platby můžete provést bankovním převodem. Veškeré údaje vám zašleme spolu s potvrzením rezervace. V případě dotazů ohledně plateb nás neváhejte kontaktovat."
          },
       ],
-      button: "read"
+      button: "číst"
    },
 ];

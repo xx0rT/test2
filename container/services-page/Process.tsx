@@ -15,7 +15,7 @@ export default function Process() {
 		<section className="w-full padding-y">
 			<div className="w-full padding-x mb-[40px]">
 				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					Holistic process
+					Průběh vaší rezervace
 				</h1>
 			</div>
 			{serviceProcessItems.map((item) => (
