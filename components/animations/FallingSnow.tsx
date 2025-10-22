@@ -16,16 +16,16 @@ export default function FallingSnow() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-      const flakes: Snowflake[] = Array.from({ length: 50 }, (_, i) => ({
+      const flakes: Snowflake[] = Array.from({ length: 60 }, (_, i) => ({
         id: i,
         left: Math.random() * 100,
-        animationDuration: Math.random() * 3 + 5,
-        animationDelay: Math.random() * 2,
-        fontSize: Math.random() * 8 + 8,
-        opacity: Math.random() * 0.5 + 0.3,
+        animationDuration: Math.random() * 4 + 6,
+        animationDelay: Math.random() * 3,
+        fontSize: Math.random() * 12 + 14,
+        opacity: Math.random() * 0.4 + 0.6,
       }));
       setSnowflakes(flakes);
-    }, 1200);
+    }, 1500);
 
     return () => clearTimeout(timer);
   }, []);
@@ -33,11 +33,11 @@ export default function FallingSnow() {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 pointer-events-none z-10 overflow-hidden">
+    <div className="fixed inset-0 pointer-events-none z-[15] overflow-hidden">
       {snowflakes.map((flake) => (
         <div
           key={flake.id}
-          className="absolute animate-fall"
+          className="absolute animate-fall text-blue-200"
           style={{
             left: `${flake.left}%`,
             animationDuration: `${flake.animationDuration}s`,
@@ -45,6 +45,7 @@ export default function FallingSnow() {
             fontSize: `${flake.fontSize}px`,
             opacity: flake.opacity,
             top: '-20px',
+            filter: 'drop-shadow(0 0 2px rgba(255, 255, 255, 0.8))',
           }}>
           ❄
         </div>

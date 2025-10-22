@@ -13,95 +13,158 @@ export default function Spring() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="w-full min-h-screen bg-gradient-to-b from-green-50 to-white relative z-20">
-      <div className="w-full padding-x padding-y pt-32 relative z-20">
-        <motion.div
-          initial={{ y: 50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8 }}
-          className="max-w-7xl mx-auto relative z-20">
-          <h1 className="text-[8vw] sm:text-[12vw] font-FoundersGrotesk font-semibold uppercase leading-none text-green-900 mb-8">
-            Jaro
-          </h1>
+        className="w-full min-h-screen relative z-20">
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
-            <div className="space-y-6">
-              <h2 className="text-4xl font-FoundersGrotesk font-medium text-green-800">
-                Jarní probuzení přírody
-              </h2>
-              <p className="text-lg text-gray-700 leading-relaxed font-NeueMontreal">
-                Zažijte krásu jarního probouzení přírody v Jeseníkách. Rozkvetlé louky, zpívající ptáci
-                a svěží horský vzduch vytvoří dokonalou atmosféru pro odpočinek.
+        <div className="relative w-full h-[70vh] mb-20">
+          <div className="absolute inset-0 bg-gradient-to-b from-green-900/40 via-green-800/30 to-transparent z-10" />
+          <Image
+            src="/showcase5.jpeg"
+            alt="Jarní krajina"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 z-20 flex items-center justify-center">
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 1, delay: 0.3 }}
+              className="text-center px-6">
+              <h1 className="text-[15vw] sm:text-[20vw] lg:text-[180px] font-FoundersGrotesk font-bold uppercase leading-none text-white mb-6 drop-shadow-2xl">
+                JARO
+              </h1>
+              <p className="text-xl sm:text-2xl text-white/90 font-NeueMontreal max-w-2xl mx-auto drop-shadow-lg">
+                Probuďte se spolu s přírodou v našem horském ráji
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed font-NeueMontreal">
-                Jaro je ideální čas pro objevování nových turistických tras, pozorování probouzející se
-                přírody a užívání si delších dnů venku v příjemném počasí.
+            </motion.div>
+          </div>
+        </div>
+
+        <div className="w-full padding-x padding-y relative z-20 bg-gradient-to-b from-transparent via-green-50 to-white">
+          <div className="max-w-7xl mx-auto">
+
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              className="mb-20">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div className="space-y-6">
+                  <div className="inline-block px-4 py-2 bg-green-100 rounded-full mb-4">
+                    <span className="text-green-800 font-semibold text-sm uppercase tracking-wide">Březen - Květen</span>
+                  </div>
+                  <h2 className="text-5xl lg:text-6xl font-FoundersGrotesk font-bold text-green-900 leading-tight">
+                    Jarní probuzení v Jeseníkách
+                  </h2>
+                  <p className="text-xl text-gray-700 leading-relaxed font-NeueMontreal">
+                    Sledujte, jak se příroda probouzí k životu. Rozkvetlé louky, zpívající ptáci
+                    a svěží horský vzduch plný vůně jarních květů.
+                  </p>
+                  <p className="text-lg text-gray-600 leading-relaxed font-NeueMontreal">
+                    Jaro je ideální čas pro objevování horských stezek, fotografování přírody
+                    a načerpání nové energie v klidném prostředí naší vily.
+                  </p>
+                </div>
+
+                <div className="grid grid-cols-2 gap-4">
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.6, delay: 0.7 }}
+                    className="relative h-64 rounded-2xl overflow-hidden shadow-xl col-span-2">
+                    <Image
+                      src="/showcase1.jpeg"
+                      alt="Vila na jaře"
+                      fill
+                      className="object-cover"
+                    />
+                  </motion.div>
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.6, delay: 0.9 }}
+                    className="relative h-48 rounded-2xl overflow-hidden shadow-xl">
+                    <Image
+                      src="/showcase3.jpeg"
+                      alt="Jarní příroda"
+                      fill
+                      className="object-cover"
+                    />
+                  </motion.div>
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.6, delay: 1.1 }}
+                    className="relative h-48 rounded-2xl overflow-hidden shadow-xl">
+                    <Image
+                      src="/showcase4.jpeg"
+                      alt="Horské panorama"
+                      fill
+                      className="object-cover"
+                    />
+                  </motion.div>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, delay: 0.7 }}
+              className="mb-20">
+              <h3 className="text-4xl lg:text-5xl font-FoundersGrotesk font-bold text-green-900 mb-12 text-center">
+                Jarní aktivity a zážitky
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {[
+                  { icon: "🚶", title: "Jarní túry", desc: "Objevujte probouzející se přírodu" },
+                  { icon: "🚴", title: "Cykloturistika", desc: "Nové trasy v čerstvé zeleni" },
+                  { icon: "📸", title: "Fotografování", desc: "Zachyťte krásu jarní přírody" },
+                  { icon: "🌸", title: "Bylinkové procházky", desc: "Poznávejte léčivé rostliny" },
+                  { icon: "🐦", title: "Pozorování ptáků", desc: "Návrat tažných ptáků" },
+                  { icon: "🧘", title: "Jóga v přírodě", desc: "Harmonizace těla i mysli" }
+                ].map((activity, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
+                    className="group relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+                    <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-green-700/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="relative">
+                      <div className="text-5xl mb-4">{activity.icon}</div>
+                      <h4 className="text-2xl font-FoundersGrotesk font-bold text-green-900 mb-3">
+                        {activity.title}
+                      </h4>
+                      <p className="text-gray-600 font-NeueMontreal leading-relaxed">
+                        {activity.desc}
+                      </p>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, delay: 1 }}
+              className="bg-gradient-to-br from-green-900 to-green-700 rounded-3xl p-12 lg:p-16 text-center mb-20 shadow-2xl">
+              <h3 className="text-4xl lg:text-5xl font-FoundersGrotesk font-bold text-white mb-6">
+                Prožijte jaro v horách
+              </h3>
+              <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto font-NeueMontreal">
+                Rezervujte si pobyt a staňte se součástí jarního probuzení přírody
               </p>
-            </div>
+              <Link
+                href="/contact"
+                className="inline-block px-12 py-5 bg-white text-green-900 rounded-full font-NeueMontreal font-bold text-lg hover:bg-green-50 transition-all duration-300 hover:scale-105 shadow-xl">
+                Kontaktovat nás
+              </Link>
+            </motion.div>
 
-            <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-              <Image
-                src="/capybilities1.jpeg"
-                alt="Jarní vila"
-                fill
-                className="object-cover"
-              />
-            </div>
           </div>
-
-          <div className="bg-white rounded-2xl shadow-xl p-8 mb-16">
-            <h3 className="text-3xl font-FoundersGrotesk font-medium text-green-900 mb-6">
-              Jarní aktivity
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div className="p-6 bg-green-50 rounded-xl">
-                <h4 className="text-xl font-semibold mb-3 text-green-800">🌸 Turistika</h4>
-                <p className="text-gray-700 font-NeueMontreal">
-                  Objevujte rozkvetlé horské louky a trasy
-                </p>
-              </div>
-              <div className="p-6 bg-green-50 rounded-xl">
-                <h4 className="text-xl font-semibold mb-3 text-green-800">🚴 Cyklovýlety</h4>
-                <p className="text-gray-700 font-NeueMontreal">
-                  Perfektní počasí pro cyklistické výlety
-                </p>
-              </div>
-              <div className="p-6 bg-green-50 rounded-xl">
-                <h4 className="text-xl font-semibold mb-3 text-green-800">🦋 Příroda</h4>
-                <p className="text-gray-700 font-NeueMontreal">
-                  Pozorování probouzející se fauny a flóry
-                </p>
-              </div>
-              <div className="p-6 bg-green-50 rounded-xl">
-                <h4 className="text-xl font-semibold mb-3 text-green-800">📸 Fotografie</h4>
-                <p className="text-gray-700 font-NeueMontreal">
-                  Zachyťte krásu jarních květů a krajiny
-                </p>
-              </div>
-              <div className="p-6 bg-green-50 rounded-xl">
-                <h4 className="text-xl font-semibold mb-3 text-green-800">🏃 Sport</h4>
-                <p className="text-gray-700 font-NeueMontreal">
-                  Ideální podmínky pro outdoorové sporty
-                </p>
-              </div>
-              <div className="p-6 bg-green-50 rounded-xl">
-                <h4 className="text-xl font-semibold mb-3 text-green-800">🍃 Relaxace</h4>
-                <p className="text-gray-700 font-NeueMontreal">
-                  Odpočinek v čerstvém jarním vzduchu
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="text-center pb-16">
-            <Link
-              href="/contact"
-              className="inline-block px-12 py-4 bg-green-900 text-white rounded-full font-NeueMontreal font-medium text-lg hover:bg-green-800 transition-colors">
-              Rezervovat jarní pobyt
-            </Link>
-          </div>
-        </motion.div>
-      </div>
+        </div>
       </motion.div>
     </Curve>
   );
