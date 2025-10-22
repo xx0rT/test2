@@ -13,13 +13,13 @@ export default function Spring() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="w-full min-h-screen bg-gradient-to-b from-green-50 to-white">
+        className="w-full min-h-screen bg-gradient-to-b from-green-50 to-white relative z-10">
       <div className="w-full padding-x padding-y pt-32">
         <motion.div
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
-          className="max-w-7xl mx-auto">
+          className="max-w-7xl mx-auto relative z-10">
           <h1 className="text-[8vw] sm:text-[12vw] font-FoundersGrotesk font-semibold uppercase leading-none text-green-900 mb-8">
             Jaro
           </h1>
