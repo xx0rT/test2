@@ -4,21 +4,32 @@ import Image from "next/image";
 import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import { logo, mobileLogo } from "@/public";
-import { footernavbarItems } from "@/constants";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function MobileNav() {
 	const [toggle, setToggle] = useState(false);
 	const [langOpen, setLangOpen] = useState(false);
-	const [currentLang, setCurrentLang] = useState('CS');
+	const { language, setLanguage, t } = useLanguage();
 
 	const languages = [
-		{ code: 'CS', label: 'Čeština' },
-		{ code: 'EN', label: 'English' },
-		{ code: 'DE', label: 'Deutsch' },
-		{ code: 'SK', label: 'Slovenčina' }
+		{ code: 'cs' as const, label: 'Čeština', display: 'CS' },
+		{ code: 'en' as const, label: 'English', display: 'EN' },
+		{ code: 'de' as const, label: 'Deutsch', display: 'DE' },
+		{ code: 'sk' as const, label: 'Slovenčina', display: 'SK' }
+	];
+
+	const currentLangObj = languages.find(l => l.code === language);
+
+	const navItems = [
+		{ id: 1, title: t.nav.home, href: "/" },
+		{ id: 2, title: t.nav.equipment, href: "/services" },
+		{ id: 3, title: t.nav.gallery, href: "/presentation" },
+		{ id: 4, title: t.nav.pricing, href: "/pricing" },
+		{ id: 5, title: t.nav.activities, href: "/insights" },
+		{ id: 6, title: t.nav.contact, href: "/contact" }
 	];
 	return (
 		<>
@@ -36,7 +47,7 @@ export default function MobileNav() {
 						<button
 							onClick={() => setLangOpen(!langOpen)}
 							className="flex items-center gap-1 text-sm font-medium font-NeueMontreal text-secondry">
-							{currentLang}
+							{currentLangObj?.display}
 							<ChevronDown size={14} className={`transition-transform ${langOpen ? 'rotate-180' : ''}`} />
 						</button>
 						{langOpen && (
@@ -45,11 +56,11 @@ export default function MobileNav() {
 									<button
 										key={lang.code}
 										onClick={() => {
-											setCurrentLang(lang.code);
+											setLanguage(lang.code);
 											setLangOpen(false);
 										}}
 										className={`w-full text-left px-3 py-2 text-sm font-NeueMontreal hover:bg-gray-100 transition-colors ${
-											currentLang === lang.code ? 'bg-gray-50 font-medium' : ''
+											language === lang.code ? 'bg-gray-50 font-medium' : ''
 										}`}>
 										{lang.label}
 									</button>
@@ -86,11 +97,11 @@ export default function MobileNav() {
 							/>
 						</div>
 						<ul className="h-full w-full flex justify-center text-left flex-col gap-[10px] padding-x">
-							{footernavbarItems.map((item) => (
+							{navItems.map((item) => (
 								<Link
 									href={item.href}
 									key={item.id}
-									onClick={(toggle) => setToggle(!toggle)}
+									onClick={() => setToggle(false)}
 									className="text-[80px] leading-[67px] font-FoundersGrotesk uppercase font-bold tracking-[-.9] text-background">
 									{item.title}
 								</Link>

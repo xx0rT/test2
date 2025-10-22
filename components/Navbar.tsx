@@ -26,7 +26,7 @@ export default function Navbar() {
 		{ id: 1, title: t.nav.home, href: "/" },
 		{ id: 2, title: t.nav.equipment, href: "/services" },
 		{ id: 3, title: t.nav.gallery, href: "/presentation" },
-		{ id: 4, title: t.nav.about, href: "/ochi-team" },
+		{ id: 4, title: t.nav.pricing, href: "/pricing" },
 		{ id: 5, title: t.nav.activities, href: "/insights" },
 		{ id: 6, title: t.nav.contact, href: "/contact" }
 	];

@@ -4,9 +4,21 @@ export const translations = {
       home: "Domů",
       equipment: "Vybavení",
       gallery: "Galerie",
-      about: "O Vile",
+      pricing: "Ceník",
       activities: "Aktivity",
       contact: "Kontakt"
+    },
+    pricing: {
+      title: "Ceník",
+      subtitle: "Transparentní ceny pro váš dokonalý pobyt",
+      perNight: "za noc",
+      minNights: "Minimálně",
+      nights: "noci",
+      maxGuests: "Maximálně",
+      guests: "hostů",
+      bookNow: "Rezervovat",
+      season: "Sezóna",
+      contact: "Kontaktujte nás pro aktuální dostupnost a speciální nabídky"
     },
     home: {
       hero: "VÁŠ DOKONALÝ",
@@ -80,6 +92,11 @@ export const translations = {
     gallery: {
       title: "galerie"
     },
+    common: {
+      loading: "Načítání...",
+      error: "Chyba",
+      success: "Úspěch"
+    },
     footer: {
       description: "Váš dokonalý útočiště v srdci přírody. Luxusní vila pro nezapomenutelné chvíle.",
       navigation: "Navigace",
@@ -99,9 +116,21 @@ export const translations = {
       home: "Home",
       equipment: "Equipment",
       gallery: "Gallery",
-      about: "About Villa",
+      pricing: "Pricing",
       activities: "Activities",
       contact: "Contact"
+    },
+    pricing: {
+      title: "Pricing",
+      subtitle: "Transparent prices for your perfect stay",
+      perNight: "per night",
+      minNights: "Minimum",
+      nights: "nights",
+      maxGuests: "Maximum",
+      guests: "guests",
+      bookNow: "Book Now",
+      season: "Season",
+      contact: "Contact us for current availability and special offers"
     },
     home: {
       hero: "YOUR PERFECT",
@@ -175,6 +204,11 @@ export const translations = {
     gallery: {
       title: "gallery"
     },
+    common: {
+      loading: "Loading...",
+      error: "Error",
+      success: "Success"
+    },
     footer: {
       description: "Your perfect haven in the heart of nature. Luxury villa for unforgettable moments.",
       navigation: "Navigation",
@@ -194,9 +228,21 @@ export const translations = {
       home: "Startseite",
       equipment: "Ausstattung",
       gallery: "Galerie",
-      about: "Über Villa",
+      pricing: "Preise",
       activities: "Aktivitäten",
       contact: "Kontakt"
+    },
+    pricing: {
+      title: "Preise",
+      subtitle: "Transparente Preise für Ihren perfekten Aufenthalt",
+      perNight: "pro Nacht",
+      minNights: "Mindestens",
+      nights: "Nächte",
+      maxGuests: "Maximal",
+      guests: "Gäste",
+      bookNow: "Jetzt buchen",
+      season: "Saison",
+      contact: "Kontaktieren Sie uns für aktuelle Verfügbarkeit und Sonderangebote"
     },
     home: {
       hero: "IHR PERFEKTER",
@@ -270,6 +316,11 @@ export const translations = {
     gallery: {
       title: "galerie"
     },
+    common: {
+      loading: "Wird geladen...",
+      error: "Fehler",
+      success: "Erfolg"
+    },
     footer: {
       description: "Ihre perfekte Oase im Herzen der Natur. Luxusvilla für unvergessliche Momente.",
       navigation: "Navigation",
@@ -289,9 +340,21 @@ export const translations = {
       home: "Domov",
       equipment: "Vybavenie",
       gallery: "Galéria",
-      about: "O Vile",
+      pricing: "Cenník",
       activities: "Aktivity",
       contact: "Kontakt"
+    },
+    pricing: {
+      title: "Cenník",
+      subtitle: "Transparentné ceny pre váš dokonalý pobyt",
+      perNight: "za noc",
+      minNights: "Minimálne",
+      nights: "noci",
+      maxGuests: "Maximálne",
+      guests: "hostí",
+      bookNow: "Rezervovať",
+      season: "Sezóna",
+      contact: "Kontaktujte nás pre aktuálnu dostupnosť a špeciálne ponuky"
     },
     home: {
       hero: "VÁŠ DOKONALÝ",
@@ -364,6 +427,11 @@ export const translations = {
     },
     gallery: {
       title: "galéria"
+    },
+    common: {
+      loading: "Načítava sa...",
+      error: "Chyba",
+      success: "Úspech"
     },
     footer: {
       description: "Vaše dokonalé útočisko v srdci prírody. Luxusná vila pre nezabudnuteľné chvíle.",
