@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { eyes } from "@/public";
 import { ArrowUpRight } from "lucide-react";
 import { LinkHover, TextMask } from "@/animation";
 import { useEffect, useState, useRef } from "react";

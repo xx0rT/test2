@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import { eyes } from "@/public";
 import { useEffect, useRef, useState } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 
@@ -69,7 +68,7 @@ export default function PlayVideo({ videosrc }: { videosrc: string }) {
 								style={{
 									transform: `rotate(${rotate}deg)`,
 								}}
-								src={eyes}
+								src="/eyes.svg"
 								alt="img"
 								className="w-full h-full object-cover"
 							/>
@@ -86,7 +85,7 @@ export default function PlayVideo({ videosrc }: { videosrc: string }) {
 								style={{
 									transform: `rotate(${rotate}deg)`,
 								}}
-								src={eyes}
+								src="/eyes.svg"
 								alt="img"
 								className="w-full h-full object-cover"
 							/>

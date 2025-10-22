@@ -1,14 +1,4 @@
 import Image from "next/image";
-import {
-	after,
-	chelengeBg,
-	showcase1,
-	showcase2,
-	showcase3,
-	showcase4,
-	showcase5,
-	showcase6,
-} from "@/public";
 import { BackgroundImg } from "@/components";
 
 export default function Chelenge() {
@@ -44,50 +34,50 @@ export default function Chelenge() {
 				</div>
 			</div>
 			<div className="w-full padding-x padding-y">
-				<BackgroundImg src={chelengeBg} />
+				<BackgroundImg src="/chelengeBg.jpeg" />
 			</div>
 			<div className="w-[80%] mx-auto padding-x flex gap-[40px] sm:w-full xm:w-full sm:flex-col xm:flex-col">
 				<div className="w-[49%] sm:w-full xm:w-full">
 					<Image
-						src={showcase1}
+						src="/showcase1.jpeg"
 						className="w-full  object-cover rounded-[20px]"
 						alt="chelengeBgImg"
 					/>
 				</div>
 				<div className="w-[49%] sm:w-full xm:w-full">
 					<Image
-						src={showcase2}
+						src="/showcase2.png"
 						className="w-full  object-cover rounded-[20px]"
 						alt="chelengeBgImg"
 					/>
 				</div>
 			</div>
 			<div className="w-full padding-x padding-y">
-				<BackgroundImg src={showcase3} />
+				<BackgroundImg src="/showcase3.jpeg" />
 			</div>
 			<div className="w-[80%] mx-auto padding-x flex gap-[40px] sm:w-full xm:w-full sm:flex-col xm:flex-col">
 				<div className="w-[49%] sm:w-full xm:w-full">
 					<Image
-						src={showcase4}
+						src="/showcase4.jpeg"
 						className="w-full  object-cover rounded-[20px]"
 						alt="chelengeBgImg"
 					/>
 				</div>
 				<div className="w-[49%] sm:w-full xm:w-full">
 					<Image
-						src={showcase5}
+						src="/showcase5.jpeg"
 						className="w-full  object-cover rounded-[20px]"
 						alt="chelengeBgImg"
 					/>
 				</div>
 			</div>
 			<div className="w-full padding-x padding-y">
-				<BackgroundImg src={showcase6} />
+				<BackgroundImg src="/showcase6.jpeg" />
 			</div>
 			<div className="w-[80%] sm:w-full xm:w-full mx-auto padding-x flex gap-[20px]">
 				<div className="w-full">
 					<Image
-						src={after}
+						src="/after.png"
 						className="w-full object-cover rounded-[20px]"
 						alt="chelengeBgImg"
 					/>

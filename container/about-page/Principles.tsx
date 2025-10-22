@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { principles1, principles2 } from "@/public";
 
 export default function Principles() {
 	return (
@@ -14,7 +13,7 @@ export default function Principles() {
 				<div className="w-full padding-x mt-[50px] flex justify-between gap-[30px] items-center sm:flex-col xm:flex-col">
 					<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-[20px]">
 						<Image
-							src={principles1}
+							src="/principles1.jpeg"
 							alt="img"
 							className="w-full rounded-[15px]"
 						/>
@@ -29,7 +28,7 @@ export default function Principles() {
 					</div>
 					<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-[20px]">
 						<Image
-							src={principles2}
+							src="/principles2.jpeg"
 							alt="img"
 							className="w-full rounded-[15px]"
 						/>

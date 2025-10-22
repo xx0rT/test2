@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Rounded } from "@/components";
-import { brand01, brand02, brand03 } from "@/public";
 
 export default function Ratings() {
 	return (
@@ -9,7 +8,7 @@ export default function Ratings() {
 			<div className="w-[49.5%] sm:w-full xm:w-full justify-between h-[60vh] sm:h-[50vh] xm:h-[50vh] gap-[10px]">
 				<div className="w-full h-full flex items-center justify-center rounded-[10px] bg-marquee relative">
 					<Image
-						src={brand01}
+						src="/brand01.svg"
 						alt="brandImg"
 						width={150}
 						height={150}
@@ -26,7 +25,7 @@ export default function Ratings() {
 			<div className="w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col flex gap-[15px]">
 				<div className="w-full flex items-center justify-center rounded-[10px] bg-secondry relative h-[60vh] sm:h-[50vh] xm:h-[50vh]">
 					<Image
-						src={brand02}
+						src="/brand02.svg"
 						alt="brandImg"
 						width={150}
 						height={150}
@@ -47,7 +46,7 @@ export default function Ratings() {
 				</div>
 				<div className="w-full flex items-center justify-center rounded-[10px] bg-secondry relative h-[60vh] sm:h-[50vh] xm:h-[50vh]">
 					<Image
-						src={brand03}
+						src="/brand03.png"
 						alt="brandImg"
 						width={150}
 						height={150}

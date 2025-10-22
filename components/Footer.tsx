@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { logo } from "@/public";
 import { useLanguage } from "@/context/LanguageContext";
 import { Instagram, Facebook, Mail, Phone, MapPin } from "lucide-react";
 

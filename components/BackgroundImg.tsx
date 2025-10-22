@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 
-export default function BackgroundImg({ src }: { src: StaticImageData }) {
+export default function BackgroundImg({ src }: { src: StaticImageData | string }) {
 	return (
 		<div className="w-full relative overflow-hidden rounded-[20px] bg-background">
 			<div

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Team1, logo } from "@/public";
 import { Marquee } from "@/components";
 
 export default function Team() {
@@ -17,7 +16,7 @@ export default function Team() {
 						<div className="flex justify-between sm:flex-col xm:flex-col gap-[20px]">
 							<div>
 								<Image
-									src={logo}
+									src="/logonavbar.png"
 									alt="ochi-logo"
 									width={50}
 									height={50}
@@ -25,7 +24,7 @@ export default function Team() {
 							</div>
 							<div>
 								<Image
-									src={Team1}
+									src="/team1.jpeg"
 									alt="ochi-logo"
 									width={300}
 									height={300}

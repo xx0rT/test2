@@ -1,4 +1,3 @@
-import { background } from "@/public";
 import { achiveItems } from "@/constants";
 import { BackgroundImg } from "@/components";
 import { TextMask } from "@/animation";
@@ -7,7 +6,7 @@ export default function Archive() {
 	return (
 		<section className="w-full">
 			<div className="padding-x w-full">
-				<BackgroundImg src={background} />
+				<BackgroundImg src="/background.png" />
 			</div>
 			<div className="w-full padding-y">
 				<div className="w-full padding-x pt-[20px] border-t border-[#21212155] flex sm:flex-col xm:flex-col justify-between gap-y-[20px]">

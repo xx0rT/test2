@@ -1,4 +1,3 @@
-import { welcome } from "@/public";
 import { BackgroundImg } from "@/components";
 
 export default function About() {
@@ -49,7 +48,7 @@ export default function About() {
 				</div>
 			</div>
 			<div className="w-full padding-x pt-[100px] lg:pt-[80px] md:pt-[60px] sm:pt-[40px] xm:pt-[40px]">
-				<BackgroundImg src={welcome} />
+				<BackgroundImg src="/welcome.jpeg" />
 			</div>
 		</section>
 	);

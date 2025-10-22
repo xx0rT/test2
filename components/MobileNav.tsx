@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
-import { logo, mobileLogo } from "@/public";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
@@ -36,7 +35,7 @@ export default function MobileNav() {
 			<div className="w-full hidden justify-between items-center h-[8vh] padding-x sm:flex xm:flex md:flex">
 				<Link href={"/"} className="flex items-center gap-[10px]">
 					<Image
-						src={logo}
+						src="/logonavbar.png"
 						alt="Vila Adalbert logo"
 						width={50}
 						height={50}
@@ -93,7 +92,7 @@ export default function MobileNav() {
 						<div className="w-full flex justify-between items-center h-[8vh] border-b border-[#f1f1f155] padding-x">
 							<Link href={"/"} className="flex items-center gap-[10px]">
 								<Image
-									src={mobileLogo}
+									src="/mobile-logo.png"
 									alt="Vila Adalbert logo"
 									width={50}
 									height={50}

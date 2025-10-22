@@ -1,4 +1,4 @@
-import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client01, client02, client03, client04, client05, client06, client07, client08, client09, insights1, insights2, insights3, latest1, latest2, nestle, officevibe, phase1, phase2, phase3, phase4, phase5, planetly, project1, project2, project3, project4, project5, project6, project7, project8, project9, publication1, publication2, publication3 } from "@/public";
+// Image paths are referenced as strings from /public folder
 
 // Navbar
 export const navbarItems = [
@@ -94,7 +94,7 @@ export const clientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Jana Nováková",
-      src: client01,
+      src: "/client01.png",
       review: "Strávili jsme ve Vile Adalbert nádherný týden. Prostředí je klidné, čisté a útulné. Majitelé byli velmi vstřícní a ochotní. Vila má vše, co jsme potřebovali pro rodinnou dovolenou. Určitě se vrátíme! 5/5",
       links: [
          {
@@ -115,7 +115,7 @@ export const clientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Petr Svoboda",
-      src: client02,
+      src: "/client02.png",
       review: "Skvělé místo pro víkendový odpočinek s přáteli. Vila je prostorná, moderně vybavená a nachází se v krásné přírodě. Užili jsme si grilování na terase a večerní posezení u krbu. Komunikace s majitelem byla bezproblémová. Moc děkujeme!",
       links: [
          {
@@ -156,7 +156,7 @@ export const clientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Markéta Dvořáková",
-      src: client03,
+      src: "/client03.png",
       review: "Vila Adalbert přinesla do naší dovolené klid a pohodu, kterou jsme hledali. Děti si užily zahradu a my rodiče krásné výhledy do okolí. Vybavení vily je na vysoké úrovni. Perfektní místo pro odpočinek od ruchu města.",
       links: [
          {
@@ -187,7 +187,7 @@ export const clientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Martin Horák",
-      src: client04,
+      src: "/client04.png",
       review: "Naprosto úžasná vila! Interiér je stylový a pohodlný. Vše fungovalo perfektně. Lokalita je ideální - klidná, ale přitom blízko civilizace. Už se těšíme na další návštěvu. Vřele doporučujeme!",
       links: [
          {
@@ -208,7 +208,7 @@ export const clientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Lukáš Černý",
-      src: client05,
+      src: "/client05.png",
       review: "Služba, kterou jsme dostali ve Vile Adalbert, byla naprosto prvotřídní. Majitelé byli pozorní ke všem detailům. Vila je vynikající pro skupinové akce. Rozhodně se vrátíme a budeme ji doporučovat dál.",
       links: [
          {
@@ -229,7 +229,7 @@ export const clientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Eva Poláčková",
-      src: client06,
+      src: "/client06.png",
       review: "Vila Adalbert má naprosto vynikající polohu. Je to nejlepší místo, které jsme navštívili. Vila překonačila naše očekávání a byli jsme opravdu překvapeni kvalitou. Určitě se vrátíme!",
       links: [
          {
@@ -245,7 +245,7 @@ export const clientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Thomas Müller",
-      src: client07,
+      src: "/client07.jpeg",
       review: "Výsledek byl jednoduche úžasný! Vila Adalbert splnila přesně to, co jsme hledali. Krásné prostředí, klidné místo a perfektní servis. Hledali jsme dlouhodobý vztah s touto vilou a jsme rádi, že jsme ji našli!",
       links: [
          {
@@ -271,7 +271,7 @@ export const clientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Tomáš Kratochvíl",
-      src: client08,
+      src: "/client08.png",
       review: "Trefili přesně to, co jsme potřebovali. Našli jsme schopnost vily splnit všechny naše požadavky skvělé. Vše proběhlo hladce a profesionálně. Jsme velmi spokojeni s celým procesem i výsledkem.",
       links: [
          {
@@ -292,7 +292,7 @@ export const clientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "David Novák",
-      src: client09,
+      src: "/client09.png",
       review: "Byli jsme překvapeni přesností, s jakou Vila Adalbert odpovídá našim osobním představám. Prostory jsou moderní, čisté a stylové. Ideální místo pro náš první společný výlet.",
       links: [
          {
@@ -320,7 +320,7 @@ export const projectItem = [
       id: 1,
       title: "Jaro",
       href: "/seasons/spring",
-      src: project1,
+      src: "/project1.webp",
       links: [
          {
             id: 1,
@@ -348,7 +348,7 @@ export const projectItem = [
       id: 2,
       title: "Léto",
       href: "/seasons/summer",
-      src: project2,
+      src: "/project2.webp",
       links: [
          {
             id: 1,
@@ -371,7 +371,7 @@ export const projectItem = [
       id: 3,
       title: "Podzim",
       href: "/seasons/autumn",
-      src: project3,
+      src: "/project3.webp",
       links: [
          {
             id: 1,
@@ -394,7 +394,7 @@ export const projectItem = [
       id: 4,
       title: "Zima",
       href: "/seasons/winter",
-      src: project4,
+      src: "/project4.webp",
       links: [
          {
             id: 1,
@@ -418,7 +418,7 @@ export const serviceProcessItems = [
       id: 1,
       phase: "01. Krok",
       name: "Dotaz",
-      src: phase1,
+      src: "/phase1.png",
       review: "Kontaktujte nás s vašimi požadavky na termín a počet hostů. Zodpovíme všechny vaše dotazy ohledně vily, vybavení a okolních aktivit. Společně najdeme ideální řešení pro váš pobyt.",
       button: "číst"
    },
@@ -426,7 +426,7 @@ export const serviceProcessItems = [
       id: 2,
       phase: "02. Krok",
       name: "Rezervace",
-      src: phase2,
+      src: "/phase2.png",
       review: "Po potvrzení dostupnosti vám pošleme rezervační formulář s detaily o ceně a podmínkách. Zajistíme si váš termín a domluvíme všechny důležité detaily ohledně vašeho příjezdu a specifických přání.",
       button: "číst"
    },
@@ -434,7 +434,7 @@ export const serviceProcessItems = [
       id: 3,
       phase: "03. Krok",
       name: "Příprava",
-      src: phase3,
+      src: "/phase3.png",
       review: "Před vaším příjezdem připravíme vilu, zkontrolujeme veškeré vybavení a zajistíme, že vše bude připraveno přesně podle vašich potřeb. Budeme s vámi v kontaktu, abychom vás informovali o všech důležitých informacích.",
       button: "číst"
    },
@@ -442,7 +442,7 @@ export const serviceProcessItems = [
       id: 4,
       phase: "04. Krok",
       name: "Příjezd",
-      src: phase4,
+      src: "/phase4.png",
       review: "Přivítáme vás ve vile, provedeme vás všemi prostorami a vysvětlíme fungování vybavení. Rádi vám poradíme s restauracemi, výlety a aktivitami v okolí. Jsme k dispozici kdykoliv během vašeho pobytu.",
       button: "číst"
    },
@@ -450,7 +450,7 @@ export const serviceProcessItems = [
       id: 5,
       phase: "05. Krok",
       name: "Pobyt a odjezd",
-      src: phase5,
+      src: "/phase5.png",
       review: "Užijte si váš pobyt v plné míře! Při odjezdu provedeme společnou prohlídku vily. Rádi si poslechněme vaši zpětnou vazbu, abychom mohli stále zlepšovat naše služby.",
       button: "číst"
    },
@@ -463,7 +463,7 @@ export const serviceClientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Jana Nováková",
-      src: client01,
+      src: "/client01.png",
       review: "Strávili jsme ve Vile Adalbert nádherný týden. Prostředí je klidné, čisté a útulné. Majitelé byli velmi vstřícní a ochotní. Vila má vše, co jsme potřebovali pro rodinnou dovolenou. Určitě se vrátíme! 5/5",
       links: [
          {
@@ -484,7 +484,7 @@ export const serviceClientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Petr Svoboda",
-      src: client02,
+      src: "/client02.png",
       review: "Skvělé místo pro víkendový odpočinek s přáteli. Vila je prostorná, moderně vybavená a nachází se v krásné přírodě. Užili jsme si grilování na terase a večerní posezení u krbu. Komunikace s majitelem byla bezproblémová. Moc děkujeme!",
       links: [
          {
@@ -525,7 +525,7 @@ export const serviceClientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Markéta Dvořáková",
-      src: client03,
+      src: "/client03.png",
       review: "Vila Adalbert přinesla do naší dovolené klid a pohodu, kterou jsme hledali. Děti si užily zahradu a my rodiče krásné výhledy do okolí. Vybavení vily je na vysoké úrovni. Perfektní místo pro odpočinek od ruchu města.",
       links: [
          {
@@ -556,7 +556,7 @@ export const serviceClientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Martin Horák",
-      src: client04,
+      src: "/client04.png",
       review: "Naprosto úžasná vila! Interiér je stylový a pohodlný. Vše fungovalo perfektně. Lokalita je ideální - klidná, ale přitom blízko civilizace. Už se těšíme na další návštěvu. Vřele doporučujeme!",
       links: [
          {
@@ -577,7 +577,7 @@ export const serviceClientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Lukáš Černý",
-      src: client05,
+      src: "/client05.png",
       review: "Služba, kterou jsme dostali ve Vile Adalbert, byla naprosto prvotřídní. Majitelé byli pozorní ke všem detailům. Vila je vynikající pro skupinové akce. Rozhodně se vrátíme a budeme ji doporučovat dál.",
       links: [
          {
@@ -598,7 +598,7 @@ export const serviceClientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Eva Poláčková",
-      src: client06,
+      src: "/client06.png",
       review: "Vila Adalbert má naprosto vynikající polohu. Je to nejlepší místo, které jsme navštívili. Vila překonačila naše očekávání a byli jsme opravdu překvapeni kvalitou. Určitě se vrátíme!",
       links: [
          {
@@ -614,7 +614,7 @@ export const serviceClientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Thomas Müller",
-      src: client07,
+      src: "/client07.jpeg",
       review: "Výsledek byl jednoduche úžasný! Vila Adalbert splnila přesně to, co jsme hledali. Krásné prostředí, klidné místo a perfektní servis. Hledali jsme dlouhodobý vztah s touto vilou a jsme rádi, že jsme ji našli!",
       links: [
          {
@@ -640,7 +640,7 @@ export const serviceClientsItem = [
       href: "#",
       title: "Pobyt:",
       name: "Tomáš Kratochvíl",
-      src: client08,
+      src: "/client08.png",
       review: "Trefili přesně to, co jsme potřebovali. Našli jsme schopnost vily splnit všechny naše požadavky skvělé. Vše proběhlo hladce a profesionálně. Jsme velmi spokojeni s celým procesem i výsledkem.",
       links: [
          {
@@ -660,7 +660,7 @@ export const serviceClientsItem = [
 export const serviceCapaybilitiesItem = [
    {
       id: 1,
-      src1: capaybilities1,
+      src1: "/capybilities1.jpeg",
       title1: "PROSTORY:",
       review: "Naše vila nabízí dokonalé zázemí pro váš odpočinek v Jeseníkách. Každý prostor je pečlivě navržen pro maximální pohodlí a relaxaci.",
       subTitle: "Pokoje",
@@ -676,7 +676,7 @@ export const serviceCapaybilitiesItem = [
             href: "/"
          },
       ],
-      src2: capaybilities2,
+      src2: "/capybilities2.jpeg",
       title2: "VYBAVENÍ:",
       links2: [
          {
@@ -708,7 +708,7 @@ export const serviceCapaybilitiesItem = [
    },
    {
       id: 2,
-      src1: capaybilities3,
+      src1: "/capybilities3.jpeg",
       title1: "WELLNESS:",
       review: "Po dni plném aktivit si zasloužíte relaxaci. Naše wellness zařízení vám pomůže načerpat novou energii.",
       subTitle: "Relaxace",
@@ -739,7 +739,7 @@ export const serviceCapaybilitiesItem = [
             href: "/"
          },
       ],
-      src2: capaybilities4,
+      src2: "/capybilities4.jpeg",
       title2: "ZÁBAVA:",
       links2: [
          {
@@ -840,7 +840,7 @@ export const presentationProjectItem = [
    {
       id: 1,
       title: "fyde",
-      src: project1,
+      src: "/project1.webp",
       href: "/case/",
       links: [
          {
@@ -868,7 +868,7 @@ export const presentationProjectItem = [
    {
       id: 2,
       title: "trawa",
-      src: project3,
+      src: "/project3.webp",
       href: "/case/",
       links: [
          {
@@ -891,7 +891,7 @@ export const presentationProjectItem = [
    {
       id: 3,
       title: "premium blend",
-      src: project4,
+      src: "/project4.webp",
       href: "/case/",
       links: [
          {
@@ -904,7 +904,7 @@ export const presentationProjectItem = [
    {
       id: 4,
       title: "planetly",
-      src: project5,
+      src: "/project5.webp",
       href: "/case/",
       links: [
          {
@@ -942,7 +942,7 @@ export const presentationProjectItem = [
    {
       id: 5,
       title: "black box",
-      src: project8,
+      src: "/project8.webp",
       href: "/case/",
       links: [
          {
@@ -965,7 +965,7 @@ export const presentationProjectItem = [
    {
       id: 6,
       title: "vise",
-      src: project2,
+      src: "/project2.webp",
       href: "/case/",
       links: [
          {
@@ -983,7 +983,7 @@ export const presentationProjectItem = [
    {
       id: 7,
       title: "soft start",
-      src: project9,
+      src: "/project9.webp",
       href: "/case/",
       links: [
          {
@@ -1001,7 +1001,7 @@ export const presentationProjectItem = [
    {
       id: 8,
       title: "officevibe",
-      src: project7,
+      src: "/project7.webp",
       href: "/case/",
       links: [
          {
@@ -1014,7 +1014,7 @@ export const presentationProjectItem = [
    {
       id: 9,
       title: "workiz easy",
-      src: project6,
+      src: "/project6.webp",
       href: "/case/",
       links: [
          {
@@ -1041,17 +1041,17 @@ export const publicationItems = [
    {
       id: 1,
       title: "Interiér vily",
-      src: publication1
+      src: "/publication1.jpeg"
    },
    {
       id: 2,
       title: "Krásné okolí",
-      src: publication2
+      src: "/publication2.png"
    },
    {
       id: 3,
       title: "Zimní atmosféra",
-      src: publication3
+      src: "/publication3.png"
    },
 ];
 
@@ -1061,17 +1061,17 @@ export const insightsPublicationItems = [
    {
       id: 1,
       title: "Sales calls?  Oh no!👀",
-      src: insights1
+      src: "/insights1.png"
    },
    {
       id: 2,
       title: "Are you trying to be the main character?",
-      src: insights2
+      src: "/insights2.jpeg"
    },
    {
       id: 3,
       title: "New Top 7",
-      src: insights3
+      src: "/insights3.jpeg"
    },
 ];
 
@@ -1079,7 +1079,7 @@ export const latestItemss = [
    {
       id: 1,
       href: "/",
-      src: latest1,
+      src: "/latest1.png",
       links: [
          {
             id: 1,
@@ -1097,7 +1097,7 @@ export const latestItemss = [
    {
       id: 2,
       href: "/",
-      src: latest2,
+      src: "/latest2.jpeg",
       links: [
          {
             id: 1,
@@ -1115,7 +1115,7 @@ export const workizItem = [
    {
       id: 1,
       title: "office vibe",
-      src: project7,
+      src: "/project7.webp",
       href: "/case/",
       links: [
          {
@@ -1128,7 +1128,7 @@ export const workizItem = [
    {
       id: 2,
       title: "planetly",
-      src: project5,
+      src: "/project5.webp",
       href: "/case/",
       links: [
          {
@@ -1171,19 +1171,19 @@ export const workizItem = [
 export const aboutPartberItems = [
    {
       id: 1,
-      src: planetly,
+      src: "/planetly.svg",
       title: "Rodina Novákových",
       para: "Vila Adalbert nás ohromila profesionalitou a péčí o každý detail. Majitelé pochopili naše potřeby a vytvořili pro nás dokonalé prostředí pro rodinnou dovolenou. Proces rezervace byl bezproblémový a velmi efektivní. Kvalita služeb a krásné prostředí nás přesvědčily k pravidelnému návratu."
    },
    {
       id: 2,
-      src: officevibe,
+      src: "/officevibe.svg",
       title: "Manželé Svobodovi",
       para: "Vila má působivé porozumění tomu, co hosté potřebují pro perfektní dovolenou. Všichni naši přátelé řekli, že je to nejlepší vila, jakou kdy navštívili. Vila splnila více, než jsme očekávali, a byli jsme opravdu překvapeni kvalitou vybavení. Určitě se vrátíme!"
    },
    {
       id: 3,
-      src: nestle,
+      src: "/nestle.svg",
       title: "Skupina přátel z Brna",
       para: "Byl to pro nás skvělý zážitek! Jako nároční hosté očekáváme vysokou úroveň služeb. Vila Adalbert splnila přesně to. Fantastické prostředí, rychlá komunikace a velmi vstřícný přístup. Toto místo je skrytým pokladem. Už plánujeme naši další návštěvu."
    },

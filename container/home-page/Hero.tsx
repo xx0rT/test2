@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
-import { awwwards } from "@/public";
 
 export default function Hero() {
 	return (
