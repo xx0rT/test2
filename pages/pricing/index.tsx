@@ -1,6 +1,8 @@
 "use client";
 import { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
 import { Ready, Footer } from "@/components";
+import Curve from "@/components/Curve/Curve";
 import { supabase, Pricing as PricingType } from '@/lib/supabase';
 import { useLanguage } from '@/context/LanguageContext';
 import Link from 'next/link';
@@ -32,7 +34,12 @@ export default function Pricing() {
   }
 
   return (
-    <main className="w-full min-h-screen bg-background">
+    <Curve backgroundColor="#F1F1F1">
+      <motion.main
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        className="w-full min-h-screen bg-background relative z-20">
       <section className="w-full min-h-screen pt-[15vh] padding-x pb-[100px]">
         <div className="w-full margin">
           <div className="w-full flex flex-col">
@@ -122,6 +129,7 @@ export default function Pricing() {
       </section>
       <Ready />
       <Footer />
-    </main>
+      </motion.main>
+    </Curve>
   );
 }

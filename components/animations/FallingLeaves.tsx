@@ -19,17 +19,17 @@ export default function FallingLeaves() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-      const newLeaves: Leaf[] = Array.from({ length: 40 }, (_, i) => ({
+      const newLeaves: Leaf[] = Array.from({ length: 35 }, (_, i) => ({
         id: i,
         left: Math.random() * 100,
-        animationDuration: Math.random() * 5 + 8,
-        fontSize: Math.random() * 16 + 18,
-        opacity: Math.random() * 0.3 + 0.6,
-        delay: Math.random() * 4,
+        animationDuration: Math.random() * 6 + 10,
+        fontSize: Math.random() * 18 + 20,
+        opacity: Math.random() * 0.4 + 0.6,
+        delay: Math.random() * 6,
         emoji: leafEmojis[Math.floor(Math.random() * leafEmojis.length)],
       }));
       setLeaves(newLeaves);
-    }, 1500);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);

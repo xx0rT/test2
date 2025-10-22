@@ -9,6 +9,7 @@ const routes = {
 	"/services": "Vybavení",
 	"/presentation": "Galerie",
 	"/ochi-team": "O Vile",
+	"/pricing": "Ceník",
 	"/insights": "Aktivity",
 	"/contact": "Kontakujte Nás",
 	"/case": "Workiz Easy",

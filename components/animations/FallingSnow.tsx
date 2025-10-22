@@ -16,16 +16,16 @@ export default function FallingSnow() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-      const flakes: Snowflake[] = Array.from({ length: 60 }, (_, i) => ({
+      const flakes: Snowflake[] = Array.from({ length: 50 }, (_, i) => ({
         id: i,
         left: Math.random() * 100,
-        animationDuration: Math.random() * 4 + 6,
-        animationDelay: Math.random() * 3,
-        fontSize: Math.random() * 12 + 14,
-        opacity: Math.random() * 0.4 + 0.6,
+        animationDuration: Math.random() * 5 + 8,
+        animationDelay: Math.random() * 5,
+        fontSize: Math.random() * 15 + 16,
+        opacity: Math.random() * 0.5 + 0.5,
       }));
       setSnowflakes(flakes);
-    }, 1500);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
