@@ -7,10 +7,12 @@ import { LinkHover, TextMask } from "@/animation";
 import { useEffect, useState, useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { Eyes } from "@/components";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Socials() {
 	const [rotate, setRotate] = useState(0);
-	const phrase = ["INSTAGRAM", "behance", "facebook", "linkedin"];
+	const { t } = useLanguage();
+	const phrase = ["VILA", "ADALBERT", "WELLNESS", "RELAX"];
 	useEffect(() => {
 		window.addEventListener("mousemove", (e) => {
 			let mouseX = e.clientX;
@@ -45,33 +47,28 @@ export default function Socials() {
 					<div className="w-full flex sm:flex-col xm:flex-col justify-between gap-y-[20px] padding-x">
 						<div className="w-[50%] sm:w-full xm:w-full">
 							<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
-								Our contact
+								{t.footer?.contact || "Kontakt"}
 							</h3>
 						</div>
 						<div className="w-[50%] sm:w-full xm:w-full flex sm:flex-col xm:flex-col justify-between gap-y-[20px]">
 							<div>
 								<h1 className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
-									L:
+									Lokace:
 								</h1>
 								<div className="flex flex-col gap-y-[10px]">
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title={`202-1965 W 4th Awe`}
+										title="Vila Adalbert"
 										href="/"
 									/>
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title={`Vancouver, Canada`}
+										title="Krušné Hory"
 										href="/"
 									/>
 									<LinkHover
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title="30 Chukarina"
-										href="/"
-									/>
-									<LinkHover
-										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-										title="St Lviv, Ukraine"
+										title="Česká republika"
 										href="/"
 									/>
 								</div>
@@ -79,9 +76,9 @@ export default function Socials() {
 							<div className="flex w-fit h-fit gap-x-[5px] group">
 								<div className="rounded-[50px] border-[2px] border-[#21212155] group-hover:bg-secondry  py-[3px] px-[12px] cursor-pointer">
 									<Link
-										href="mailto:hello@ochi.design"
+										href="mailto:info@vilaadalbert.cz"
 										className="paragraph font-NeueMontreal text-secondry uppercase group-hover:text-background transition-all duration-200 ease-in">
-										hello@ochi.design
+										info@vilaadalbert.cz
 									</Link>
 								</div>
 								<div className="w-[33px] flex items-center justify-center h-[33px] border-[2px] border-[#21212155] rounded-[50px] group-hover:bg-secondry transition-all duration-200 ease-in cursor-pointer sm:hidden xm:hidden">
