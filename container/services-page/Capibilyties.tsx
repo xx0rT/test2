@@ -12,21 +12,20 @@ export default function Capibilyties() {
 			<div className="w-[82%] sm:w-full xm:w-full padding-x mb-[70px]">
 				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
 					<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
-						Let’s be honest.
+						Buďme upřímní.
 					</span>
-					&nbsp;There are really no excuses to have a bad presentation anymore.
-					No one has time for poorly communicated ideas. Focus on what you do
-					best <span className="sm:hidden xm:hidden">—</span>
-					growing your business, while we do our best at
+					&nbsp;Dovolená v horách by měla být pohodlná a nezapomenutelná.
+					Zaměřte se na to, co děláte nejlépe <span className="sm:hidden xm:hidden">—</span>
+					relaxaci a zábavu, zatímco my se postaráme o
 					<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
-						&nbsp;making your presentations awesome.
+						&nbsp;váš absolutní komfort.
 					</span>
 				</h1>
 			</div>
 			<div className="w-full flex sm:flex-col xm:flex-col justify-between py-[20px] padding-x border-t border-[#21212155] sm:gap-[15px] xm:gap-[15px]">
 				<div className="w-[10%] sm:w-full xm:w-full">
 					<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
-						Our Capabilities:
+						Co nabízíme:
 					</h3>
 				</div>
 				<div className="w-[90%] flex flex-col gap-y-[30px]">

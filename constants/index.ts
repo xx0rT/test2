@@ -681,47 +681,47 @@ export const serviceCapaybilitiesItem = [
    {
       id: 1,
       src1: capaybilities1,
-      title1: "RAISE FUNDS:",
-      review: "We help manage investor expectations and secure financing for your business with an excellent investor deck.Having a good product or illuminating ideas is not enough anymore.Poor investor presentation may close the door to potential financing right away.In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more.",
-      subTitle: "Projects",
+      title1: "PROSTORY:",
+      review: "Naše vila nabízí dokonalé zázemí pro váš odpočinek v Jeseníkách. Každý prostor je pečlivě navržen pro maximální pohodlí a relaxaci.",
+      subTitle: "Pokoje",
       links1: [
          {
             id: 1,
-            title: "investor deck",
+            title: "prostorné ložnice",
             href: "/"
          },
          {
             id: 2,
-            title: "startup pitch",
+            title: "moderní koupelny",
             href: "/"
          },
       ],
       src2: capaybilities2,
-      title2: "SELL PRODUCTS:",
+      title2: "VYBAVENÍ:",
       links2: [
          {
             id: 1,
-            title: "business proposal",
+            title: "plně vybavená kuchyň",
             href: "/"
          },
          {
             id: 2,
-            title: "company presentation",
+            title: "obývací pokoj s krbem",
             href: "/"
          },
          {
             id: 3,
-            title: "product presentation",
+            title: "jídelní část",
             href: "/"
          },
          {
             id: 4,
-            title: "sales deck",
+            title: "terasa s výhledem",
             href: "/"
          },
          {
             id: 5,
-            title: "service deck",
+            title: "zahrada",
             href: "/"
          },
       ]
@@ -729,62 +729,62 @@ export const serviceCapaybilitiesItem = [
    {
       id: 2,
       src1: capaybilities3,
-      title1: "HIRE & MANAGE PEOPLE:",
-      review: "We help manage investor expectations and secure financing for your business with an excellent investor deck.Having a good product or illuminating ideas is not enough anymore.Poor investor presentation may close the door to potential financing right away.In contrast, a properly made investor deck provides investors with clarity, evokes confidence, and leaves them craving for more.",
-      subTitle: "Projects",
+      title1: "WELLNESS:",
+      review: "Po dni plném aktivit si zasloužíte relaxaci. Naše wellness zařízení vám pomůže načerpat novou energii.",
+      subTitle: "Relaxace",
       links1: [
          {
             id: 1,
-            title: "big news deck",
+            title: "sauna",
             href: "/"
          },
          {
             id: 2,
-            title: "branded template",
+            title: "vířivka",
             href: "/"
          },
          {
             id: 3,
-            title: "onboarding presentation",
+            title: "odpočinková zóna",
             href: "/"
          },
          {
             id: 4,
-            title: "policy deck & playbook",
+            title: "masážní služby",
             href: "/"
          },
          {
             id: 5,
-            title: "progress report",
+            title: "klidové prostory",
             href: "/"
          },
       ],
       src2: capaybilities4,
-      title2: "ADDITIONAL:",
+      title2: "ZÁBAVA:",
       links2: [
          {
             id: 1,
-            title: "agency",
+            title: "stolní hry",
             href: "/"
          },
          {
             id: 2,
-            title: "branding",
+            title: "gril a ohniště",
             href: "/"
          },
          {
             id: 3,
-            title: "corporate training",
+            title: "dětské hřiště",
             href: "/"
          },
          {
             id: 4,
-            title: "redesign",
+            title: "ping-pong stůl",
             href: "/"
          },
          {
             id: 5,
-            title: "review",
+            title: "knihovna",
             href: "/"
          },
       ]
