@@ -24,7 +24,7 @@ export default function Expectations() {
 				<div className="w-full flex justify-between sm:flex-col xm:flex-col sm:gap-[20px] xm:gap-[20px]">
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<h3 className="paragraph font-medium text-white font-NeueMontreal">
-							What you can expect?
+							Co můžete očekávat?
 						</h3>
 					</div>
 					<div className="w-[50%] sm:w-full xm:w-full flex flex-wrap gap-[20px]">

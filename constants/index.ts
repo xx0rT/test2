@@ -795,44 +795,44 @@ export const expectationsItems = [
    {
       id: 1,
       title1: "01",
-      subTitle1: "Comunication",
-      btn: "read",
-      para1: "The relationship with the clients is our top priority. We put extra effort into keeping mutual respect, honesty, and clarity in the conversation. For each client, we develop a project view site in Notion to track milestones and see the thinking behind steps. You always know what and when we do, as you feel confident in the results we bring.",
+      subTitle1: "Komunikace",
+      btn: "číst",
+      para1: "Vztah s našimi hosty je naší nejvyšší prioritou. Klademe důraz na vzájemný respekt, upřímnost a jasnou komunikaci. Pro každou rezervaci zajišťujeme kompletní informace o vile a pobytu. Vždy víte, co můžete očekávat, a můžete se spolehnout na kvalitu našich služeb.",
    },
    {
       id: 2,
       title1: "04",
-      subTitle1: "One point of contact",
-      btn: "read",
-      para1: "Every project is led by Ihor, the agency's founder and creative director. He ensures the whole project flows from start to finish. He puts together the right creative team for your specific project. You will always have this direct contact person available to speak your business language. He takes care of translating your business goals into the language of design for the team."
+      subTitle1: "Přímý kontakt",
+      btn: "číst",
+      para1: "Každý host má přímý kontakt na majitele vily. Zajišťujeme osobní přístup a jsme vždy k dispozici pro vaše dotazy a potřeby. Postaráme se o to, aby váš pobyt proběhl hladce od začátku až do konce."
    },
    {
       id: 3,
       title1: "02",
-      subTitle1: "Ukrainian Business",
-      btn: "read",
-      para1: "We are a Ukrainian-born business working mainly with international clients. And as Ukrainians, we offer an unshakable workforce that's proven it can handle anything. The international arena was our focus from the start. And each working day, we showed up as genuine innovators and Ukraine ambassadors. Part of our mission is to promote our homeland by doing the most incredible work we can, each project at a time.",
+      subTitle1: "Rodinný přístup",
+      btn: "číst",
+      para1: "Vila Adalbert je v rodinném vlastnictví a provozujeme ji s láskou k horám a pohostinnosti. Poskytujeme služby s osobním přístupem, který vytváří domáckou atmosféru. Staráme se o každý detail, aby se naši hosté cítili jako doma.",
    },
    {
       id: 4,
       title1: "05",
-      subTitle1: "Constantly Improving",
-      btn: "read",
-      para1: "We are passionate about creating industry-shifting presentations. And as the world around us, we constantly evolve and improve. Our growth is fueled by an innovative ecosystem designed for each team member to grow. We provide them with frequent pieces for training both on design craft and personal development. We are constantly looking for new ways to support our creatives and our community as for our clients."
+      subTitle1: "Neustálé zlepšování",
+      btn: "číst",
+      para1: "Neustále pracujeme na zlepšování našich služeb a vybavení vily. Posloucháme zpětnou vazbu od našich hostů a snažíme se jim poskytnout stále lepší zážitky. Inovujeme a přizpůsobujeme se potřebám moderních cestovatelů."
    },
    {
       id: 5,
       title1: "03",
-      subTitle1: "Holistic Approach",
-      btn: "read",
-      para1: "We simply ask lots of questions to understand your goals, business, and niche you operate. Our discovery process is essential as it informs our decisions throughout the project. Once we firmly define the goal, it is incredible to move towards that goal. That's why so much of our work is discovery, research, and asking good questions. The answers we get and the data we find go into the foundation of project success.",
+      subTitle1: "Komplexní služby",
+      btn: "číst",
+      para1: "Snažíme se porozumět vašim potřebám a přáním, abychom vám mohli poskytnout perfektní pobyt. Rádi vám poradíme s výlety, restauracemi či aktivitami v okolí. Pomůžeme vám naplánovat váš pobyt tak, aby splnil všechna vaše očekávání.",
    },
    {
       id: 6,
       title1: "06",
-      subTitle1: "Limited Amount of Client",
-      btn: "read",
-      para1: "We believe it is vital to dedicate sole focus and undivided attention to each project. To add as much value as possible, we serve a limited amount of clients per month. We have a rule that we follow to choosing projects: our client understands the value of the presentation as a communication tool. We believe in their products or ideas. Together, we work to create positive change."
+      subTitle1: "Kvalita před kvantitou",
+      btn: "číst",
+      para1: "Věříme, že je důležité věnovat plnou pozornost každému hostu. Proto udržujeme kapacitu vily na optimální úrovni, abychom zajistili klid a soukromí. Každý pobyt je pro nás jedinečný a snažíme se vytvořit nezapomenutelné vzpomínky."
    },
 ];
 
@@ -1060,17 +1060,17 @@ export const presentationProjectItem = [
 export const publicationItems = [
    {
       id: 1,
-      title: "officevibe ppt template",
+      title: "Interiér vily",
       src: publication1
    },
    {
       id: 2,
-      title: "trawa energy pitch deck",
+      title: "Krásné okolí",
       src: publication2
    },
    {
       id: 3,
-      title: "tech for ukraine",
+      title: "Zimní atmosféra",
       src: publication3
    },
 ];
@@ -1192,20 +1192,20 @@ export const aboutPartberItems = [
    {
       id: 1,
       src: planetly,
-      title: "Planetly",
-      para: "Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership."
+      title: "Rodina Novákových",
+      para: "Vila Adalbert nás ohromila profesionalitou a péčí o každý detail. Majitelé pochopili naše potřeby a vytvořili pro nás dokonalé prostředí pro rodinnou dovolenou. Proces rezervace byl bezproblémový a velmi efektivní. Kvalita služeb a krásné prostředí nás přesvědčily k pravidelnému návratu."
    },
    {
       id: 2,
       src: officevibe,
-      title: "Officevibe",
-      para: "Ochi has an impressive understanding of what's needed to do an effective presentation. The stakeholders at work said it's the best most complete PP template they've ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!"
+      title: "Manželé Svobodovi",
+      para: "Vila má působivé porozumění tomu, co hosté potřebují pro perfektní dovolenou. Všichni naši přátelé řekli, že je to nejlepší vila, jakou kdy navštívili. Vila splnila více, než jsme očekávali, a byli jsme opravdu překvapeni kvalitou vybavení. Určitě se vrátíme!"
    },
    {
       id: 3,
       src: nestle,
-      title: "Nestle",
-      para: "This is just a great experience for us! As an established company, you operate within different industries and expect immediate input with a certain level of service. Ihor and the team delivered exactly that. Fantastic result, quick delivery time, and highly responsive. This team is a hidden gem. We've already started to outline our next projects for them."
+      title: "Skupina přátel z Brna",
+      para: "Byl to pro nás skvělý zážitek! Jako nároční hosté očekáváme vysokou úroveň služeb. Vila Adalbert splnila přesně to. Fantastické prostředí, rychlá komunikace a velmi vstřícný přístup. Toto místo je skrytým pokladem. Už plánujeme naši další návštěvu."
    },
    // {
    //    id: 4,
