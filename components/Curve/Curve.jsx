@@ -5,12 +5,12 @@ import { useEffect, useState } from "react";
 import { text, curve, translate } from "@/motion";
 
 const routes = {
-	"/": "Home",
-	"/services": "Services",
-	"/presentation": "Our Work",
-	"/ochi-team": "About Us",
-	"/insights": "Insights",
-	"/contact": "Contact Us",
+	"/": "Domov",
+	"/services": "Vybavení",
+	"/presentation": "Galerie",
+	"/ochi-team": "O Vile",
+	"/insights": "Aktivity",
+	"/contact": "Kontakujte Nás",
 	"/case": "Workiz Easy",
 };
 
