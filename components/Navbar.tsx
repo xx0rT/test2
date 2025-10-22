@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { logo } from "@/public";
+import logonavbar from "@/public/logonavbar.png";
 import { useState } from "react";
 import { navVariants } from "@/motion";
 import { TextHover } from "@/animation";
@@ -51,7 +51,7 @@ export default function Navbar() {
 				<div className="w-[50%]">
 					<Link href={"/"}>
 						<Image
-							src={logo}
+							src={logonavbar}
 							alt="Vila Adalbert logo"
 							width={70}
 							height={70}
