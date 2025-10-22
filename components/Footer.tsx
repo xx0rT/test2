@@ -27,17 +27,6 @@ export default function Footer() {
 				<div className="w-full max-w-[1400px] mx-auto">
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 pb-12 mb-12 border-b border-white/20">
 						<div className="lg:col-span-5">
-							<Link href={"/"} className="inline-block mb-6 group">
-								<div className="relative">
-									<Image
-										src={logo}
-										alt="Vila Adalbert logo"
-										width={100}
-										height={100}
-										className="transition-transform duration-300 group-hover:scale-105"
-									/>
-								</div>
-							</Link>
 							<h3 className="sub-heading font-medium font-NeueMontreal text-white mb-4">
 								Vila Adalbert
 							</h3>
