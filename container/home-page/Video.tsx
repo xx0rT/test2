@@ -23,7 +23,7 @@ export default function Video() {
 				data-scroll-speed="-.8"
 				data-scroll-section>
 				<Image
-					src="/image.png"
+					src="/capybilities44.jpeg"
 					alt="Vila Adalbert"
 					width={1920}
 					height={1080}

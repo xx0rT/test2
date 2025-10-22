@@ -43,15 +43,6 @@ export default function Hero() {
 								únikový prostor
 							</h1>
 						</div>
-						<div>
-							<Image
-								src={awwwards}
-								alt="awwwards"
-								width={60}
-								height={60}
-								className="xm:hidden sm:hidden"
-							/>
-						</div>
 					</div>
 					<div className="w-full flex flex-col h-[22vh] border-t border-[#21212155] py-[20px] sm:mb-[80px] xm:mb-[80px] gap-[30px]">
 						<div className="flex justify-between items-center padding-x gap-[20px] sm:flex-col sm:items-start xm:flex-col xm:items-start">

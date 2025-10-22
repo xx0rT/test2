@@ -89,7 +89,7 @@ export default function About() {
 						hovered && "scale-[0.96]"
 					}`}>
 					<Image
-						src="/image.png"
+						src="/capybilities44.jpeg"
 						alt="about-img"
 						width={800}
 						height={600}
