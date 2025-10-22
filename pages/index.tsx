@@ -1,4 +1,3 @@
-"use client";
 import { useEffect } from "react";
 import { Curve, Marquee, Ready } from "@/components";
 import { About, Clients, Hero, Projects, VideoHome } from "@/container";

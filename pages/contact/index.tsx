@@ -1,4 +1,3 @@
-"use client";
 import { useEffect } from "react";
 import { Curve } from "@/components";
 import { Herocontact, Form, FAQ, Socials } from "@/container";

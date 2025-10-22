@@ -1,4 +1,3 @@
-"use client";
 import { useEffect } from "react";
 import { Curve } from "@/components";
 import { Heroinsights, Publicationinsights } from "@/container";
