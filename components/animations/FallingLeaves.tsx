@@ -37,7 +37,7 @@ export default function FallingLeaves() {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <div className="fixed inset-0 pointer-events-none z-10 overflow-hidden">
       {leaves.map((leaf) => (
         <div
           key={leaf.id}
