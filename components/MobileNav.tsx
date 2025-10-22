@@ -34,13 +34,21 @@ export default function MobileNav() {
 	return (
 		<>
 			<div className="w-full hidden justify-between items-center h-[8vh] padding-x sm:flex xm:flex md:flex">
-				<Link href={"/"}>
+				<Link href={"/"} className="flex items-center gap-[10px]">
 					<Image
 						src={logo}
-						alt="ochi logo"
-						width={70}
-						height={70}
+						alt="Vila Adalbert logo"
+						width={50}
+						height={50}
 					/>
+					<div className="flex flex-col leading-none">
+						<span className="text-[16px] font-semibold font-FoundersGrotesk text-secondry uppercase tracking-tight">
+							Vila Adalbert
+						</span>
+						<span className="text-[10px] font-NeueMontreal text-secondry/60 uppercase tracking-wider mt-[1px]">
+							Jeseníky
+						</span>
+					</div>
 				</Link>
 				<div className="flex items-center gap-4">
 					<div className="relative">
@@ -83,13 +91,21 @@ export default function MobileNav() {
 						transition={{ duration: 1, ease: [0.3, 0.86, 0.36, 0.95] }}
 						className="fixed top-0 bottom-0 right-0 z-50 w-full min-h-screen flex justify-end items-end flex-col bg-secondry">
 						<div className="w-full flex justify-between items-center h-[8vh] border-b border-[#f1f1f155] padding-x">
-							<Link href={"/"}>
+							<Link href={"/"} className="flex items-center gap-[10px]">
 								<Image
 									src={mobileLogo}
-									alt="ochi logo"
-									width={70}
-									height={70}
+									alt="Vila Adalbert logo"
+									width={50}
+									height={50}
 								/>
+								<div className="flex flex-col leading-none">
+									<span className="text-[16px] font-semibold font-FoundersGrotesk text-white uppercase tracking-tight">
+										Vila Adalbert
+									</span>
+									<span className="text-[10px] font-NeueMontreal text-white/60 uppercase tracking-wider mt-[1px]">
+										Jeseníky
+									</span>
+								</div>
 							</Link>
 							<IoMdClose
 								onClick={() => setToggle(false)}

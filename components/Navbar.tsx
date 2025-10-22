@@ -49,13 +49,22 @@ export default function Navbar() {
 				className="w-full h-[8vh] padding-x fixed top-0 left-0 z-50 backdrop-blur-[7px] flex items-center justify-between sm:hidden xm:hidden md:hidden"
 				animate={hidden ? "hidden" : "vissible"}>
 				<div className="flex-shrink-0">
-					<Link href={"/"}>
+					<Link href={"/"} className="flex items-center gap-[12px] group">
 						<Image
 							src={logonavbar}
 							alt="Vila Adalbert logo"
-							width={70}
-							height={70}
+							width={60}
+							height={60}
+							className="transition-transform duration-300 group-hover:scale-105"
 						/>
+						<div className="flex flex-col leading-none">
+							<span className="text-[18px] font-semibold font-FoundersGrotesk text-secondry uppercase tracking-tight">
+								Vila Adalbert
+							</span>
+							<span className="text-[11px] font-NeueMontreal text-secondry/60 uppercase tracking-wider mt-[2px]">
+								Jeseníky
+							</span>
+						</div>
 					</Link>
 				</div>
 				<div className="flex gap-x-[20px] items-center absolute left-1/2 transform -translate-x-1/2">

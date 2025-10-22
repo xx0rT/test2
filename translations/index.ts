@@ -90,7 +90,8 @@ export const translations = {
       featuredSubtitle: "Turistika a přírodní zajímavosti."
     },
     gallery: {
-      title: "galerie"
+      title: "galerie",
+      subtitle: "Prohlédněte si prostory naší vily a okolní přírodu. Každý detail je pečlivě navržen pro váš maximální komfort a nezapomenutelnou dovolenou v Jesenících."
     },
     common: {
       loading: "Načítání...",
@@ -98,7 +99,7 @@ export const translations = {
       success: "Úspěch"
     },
     footer: {
-      description: "Váš dokonalý útočiště v srdci přírody. Luxusní vila pro nezapomenutelné chvíle.",
+      description: "Luxusní vila v srdci Jeseníků. Ideální místo pro odpočinek, relaxaci a nezapomenutelné chvíle s rodinou či přáteli.",
       navigation: "Navigace",
       contact: "Kontakt",
       followUs: "Sledujte nás",
@@ -202,7 +203,8 @@ export const translations = {
       featuredSubtitle: "Hiking and natural attractions."
     },
     gallery: {
-      title: "gallery"
+      title: "gallery",
+      subtitle: "Explore our villa spaces and the surrounding nature. Every detail is carefully designed for your maximum comfort and unforgettable vacation in Jeseníky."
     },
     common: {
       loading: "Loading...",
@@ -210,7 +212,7 @@ export const translations = {
       success: "Success"
     },
     footer: {
-      description: "Your perfect haven in the heart of nature. Luxury villa for unforgettable moments.",
+      description: "Luxury villa in the heart of Jeseníky Mountains. The ideal place for relaxation and unforgettable moments with family or friends.",
       navigation: "Navigation",
       contact: "Contact",
       followUs: "Follow us",
@@ -314,7 +316,8 @@ export const translations = {
       featuredSubtitle: "Wandern und Naturattraktionen."
     },
     gallery: {
-      title: "galerie"
+      title: "galerie",
+      subtitle: "Prohlédněte si prostory naší vily a okolní přírodu. Každý detail je pečlivě navržen pro váš maximální komfort a nezapomenutelnou dovolenou v Jesenících."
     },
     common: {
       loading: "Wird geladen...",
@@ -322,7 +325,7 @@ export const translations = {
       success: "Erfolg"
     },
     footer: {
-      description: "Ihre perfekte Oase im Herzen der Natur. Luxusvilla für unvergessliche Momente.",
+      description: "Luxusvilla im Herzen des Jeseníky-Gebirges. Der ideale Ort für Entspannung und unvergessliche Momente mit Familie oder Freunden.",
       navigation: "Navigation",
       contact: "Kontakt",
       followUs: "Folgen Sie uns",
@@ -426,7 +429,8 @@ export const translations = {
       featuredSubtitle: "Turistika a prírodné zaujímavosti."
     },
     gallery: {
-      title: "galéria"
+      title: "galéria",
+      subtitle: "Prezrite si priestory našej vily a okolitú prírodu. Každý detail je staraně navrhnutý pre váš maximálny komfort a nezabudnuteľnú dovolenku v Jeseníkoch."
     },
     common: {
       loading: "Načítava sa...",
@@ -434,7 +438,7 @@ export const translations = {
       success: "Úspech"
     },
     footer: {
-      description: "Vaše dokonalé útočisko v srdci prírody. Luxusná vila pre nezabudnuteľné chvíle.",
+      description: "Luxusná vila v srdci Jeseníkov. Ideálne miesto pre odpočinok, relaxáciu a nezabudnuteľné chvíle s rodinou alebo priateľmi.",
       navigation: "Navigácia",
       contact: "Kontakt",
       followUs: "Sledujte nás",
