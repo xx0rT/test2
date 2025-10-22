@@ -73,13 +73,18 @@ export default function Winter() {
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.6, delay: 0.7 }}
-                    className="relative h-64 rounded-2xl overflow-hidden shadow-xl col-span-2">
+                    className="relative h-64 rounded-2xl overflow-hidden shadow-xl col-span-2 cursor-pointer group">
                     <Image
-                      src="/welcome.jpeg"
+                      src="/image copy copy.png"
                       alt="Vila v zimě"
                       fill
                       className="object-cover"
                     />
+                    <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-all duration-300">
+                      <div className="w-20 h-20 rounded-full bg-white/90 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <div className="w-0 h-0 border-l-[20px] border-l-blue-900 border-t-[12px] border-t-transparent border-b-[12px] border-b-transparent ml-1" />
+                      </div>
+                    </div>
                   </motion.div>
                   <motion.div
                     initial={{ opacity: 0, scale: 0.8 }}
@@ -87,7 +92,7 @@ export default function Winter() {
                     transition={{ duration: 0.6, delay: 0.9 }}
                     className="relative h-48 rounded-2xl overflow-hidden shadow-xl">
                     <Image
-                      src="/ochi-side.jpg"
+                      src="/image.png"
                       alt="Zimní aktivita"
                       fill
                       className="object-cover"
@@ -99,7 +104,7 @@ export default function Winter() {
                     transition={{ duration: 0.6, delay: 1.1 }}
                     className="relative h-48 rounded-2xl overflow-hidden shadow-xl">
                     <Image
-                      src="/background-about.jpeg"
+                      src="/image copy.png"
                       alt="Krb"
                       fill
                       className="object-cover"

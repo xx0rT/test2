@@ -41,13 +41,18 @@ export default function Autumn() {
                 </p>
               </div>
 
-              <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl cursor-pointer group">
                 <Image
-                  src="/background-about.jpeg"
+                  src="/image copy copy.png"
                   alt="Podzimní vila"
                   fill
                   className="object-cover"
                 />
+                <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-all duration-300">
+                  <div className="w-20 h-20 rounded-full bg-white/90 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-0 h-0 border-l-[20px] border-l-orange-900 border-t-[12px] border-t-transparent border-b-[12px] border-b-transparent ml-1" />
+                  </div>
+                </div>
               </div>
             </div>
 
