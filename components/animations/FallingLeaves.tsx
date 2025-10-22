@@ -41,11 +41,10 @@ export default function FallingLeaves() {
       {leaves.map((leaf) => (
         <div
           key={leaf.id}
-          className="absolute animate-leaf-fall"
+          className="absolute"
           style={{
             left: `${leaf.left}%`,
-            animationDuration: `${leaf.animationDuration}s`,
-            animationDelay: `${leaf.delay}s`,
+            animation: `leafFall ${leaf.animationDuration}s ease-in-out ${leaf.delay}s infinite`,
             fontSize: `${leaf.fontSize}px`,
             opacity: leaf.opacity,
             top: '-50px',
@@ -71,9 +70,6 @@ export default function FallingLeaves() {
           100% {
             transform: translateY(100vh) rotate(360deg) translateX(0);
           }
-        }
-        .animate-leaf-fall {
-          animation: leafFall ease-in-out infinite;
         }
       `}</style>
     </div>
