@@ -319,82 +319,92 @@ export const projectItem = [
    {
       id: 1,
       title: "Jaro",
-      href: "/case/",
+      href: "/seasons/spring",
       src: project1,
       links: [
          {
             id: 1,
-            title: "king-size postel",
-            href: "/services",
+            title: "turistika",
+            href: "/seasons/spring",
          },
          {
             id: 2,
-            title: "vlastní koupelna",
-            href: "/services",
+            title: "cyklistika",
+            href: "/seasons/spring",
          },
          {
             id: 3,
-            title: "výhled do zahrady",
-            href: "/services",
+            title: "příroda",
+            href: "/seasons/spring",
          },
          {
             id: 4,
-            title: "šatna",
-            href: "/services",
+            title: "relax",
+            href: "/seasons/spring",
          },
       ]
    },
    {
       id: 2,
       title: "Léto",
-      href: "/case/",
+      href: "/seasons/summer",
       src: project2,
       links: [
          {
             id: 1,
-            title: "krb",
-            href: "/services",
+            title: "horská turistika",
+            href: "/seasons/summer",
          },
          {
             id: 2,
-            title: "velká terasa",
-            href: "/services",
+            title: "koupání",
+            href: "/seasons/summer",
+         },
+         {
+            id: 3,
+            title: "grilování",
+            href: "/seasons/summer",
          },
       ]
    },
    {
       id: 3,
       title: "Podzim",
-      href: "/case/",
+      href: "/seasons/autumn",
       src: project3,
       links: [
          {
             id: 1,
-            title: "gril",
-            href: "/services",
+            title: "houbaření",
+            href: "/seasons/autumn",
          },
          {
             id: 2,
-            title: "venkovní posezení",
-            href: "/services",
+            title: "turistika",
+            href: "/seasons/autumn",
          },
          {
             id: 3,
-            title: "dětské hřiště",
-            href: "/services",
+            title: "fotografie",
+            href: "/seasons/autumn",
          },
       ]
    },
    {
       id: 4,
       title: "Zima",
-      href: "/case/",
+      href: "/seasons/winter",
       src: project4,
       links: [
          {
             id: 1,
-            title: "plně vybavená",
-            href: "/services",
+            title: "lyžování",
+            href: "/seasons/winter",
+         },
+         {
+            id: 2,
+            title: "běžkování",
+            href: "/seasons/winter",
          },
       ]
    },
