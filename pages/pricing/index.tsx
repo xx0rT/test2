@@ -128,7 +128,6 @@ export default function Pricing() {
         </div>
       </section>
       <Ready />
-      <Footer />
       </motion.main>
     </Curve>
   );

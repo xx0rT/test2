@@ -48,7 +48,7 @@ export default function Navbar() {
 				variants={navVariants}
 				className="w-full h-[8vh] padding-x fixed top-0 left-0 z-50 backdrop-blur-[7px] flex items-center justify-between sm:hidden xm:hidden md:hidden"
 				animate={hidden ? "hidden" : "vissible"}>
-				<div className="w-[50%]">
+				<div className="flex-shrink-0">
 					<Link href={"/"}>
 						<Image
 							src={logonavbar}
@@ -58,13 +58,11 @@ export default function Navbar() {
 						/>
 					</Link>
 				</div>
-				<div className="flex gap-x-[20px] w-[50%] items-center">
+				<div className="flex gap-x-[20px] items-center absolute left-1/2 transform -translate-x-1/2">
 					{navItems.map((item) => (
 						<Link
 							key={item.id}
-							className={`w-fit paragraph font-medium font-NeueMontreal text-secondry capitalize flex flex-col hover ${
-								item.id === 5 && "ml-auto"
-							}`}
+							className="w-fit paragraph font-medium font-NeueMontreal text-secondry capitalize flex flex-col hover"
 							href={item.href}>
 							<TextHover
 								titile1={item.title}
@@ -72,31 +70,31 @@ export default function Navbar() {
 							/>
 						</Link>
 					))}
-					<div className="relative ml-4">
-						<button
-							onClick={() => setLangOpen(!langOpen)}
-							className="flex items-center gap-1 paragraph font-medium font-NeueMontreal text-secondry hover:text-black transition-colors">
-							{currentLangObj?.display}
-							<ChevronDown size={16} className={`transition-transform ${langOpen ? 'rotate-180' : ''}`} />
-						</button>
-						{langOpen && (
-							<div className="absolute top-full right-0 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg py-2 min-w-[140px] z-50">
-								{languages.map((lang) => (
-									<button
-										key={lang.code}
-										onClick={() => {
-											setLanguage(lang.code);
-											setLangOpen(false);
-										}}
-										className={`w-full text-left px-4 py-2 text-sm font-NeueMontreal hover:bg-gray-100 transition-colors ${
-											language === lang.code ? 'bg-gray-50 font-medium' : ''
-										}`}>
-										{lang.label}
-									</button>
-								))}
-							</div>
-						)}
-					</div>
+				</div>
+				<div className="relative flex-shrink-0">
+					<button
+						onClick={() => setLangOpen(!langOpen)}
+						className="flex items-center gap-1 paragraph font-medium font-NeueMontreal text-secondry hover:text-black transition-colors">
+						{currentLangObj?.display}
+						<ChevronDown size={16} className={`transition-transform ${langOpen ? 'rotate-180' : ''}`} />
+					</button>
+					{langOpen && (
+						<div className="absolute top-full right-0 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg py-2 min-w-[140px] z-50">
+							{languages.map((lang) => (
+								<button
+									key={lang.code}
+									onClick={() => {
+										setLanguage(lang.code);
+										setLangOpen(false);
+									}}
+									className={`w-full text-left px-4 py-2 text-sm font-NeueMontreal hover:bg-gray-100 transition-colors ${
+										language === lang.code ? 'bg-gray-50 font-medium' : ''
+									}`}>
+									{lang.label}
+								</button>
+							))}
+						</div>
+					)}
 				</div>
 			</motion.nav>
 			<MobileNav />
